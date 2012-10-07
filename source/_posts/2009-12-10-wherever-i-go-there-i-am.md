@@ -1,0 +1,10 @@
+---
+layout: post
+title: Wherever I Go There I Am
+published: true
+---
+<p>While pondering about what to write next i realized that perhaps a little bit of background could be helpful. Perhaps helpful for me to see my patterns of behavior and thinking.</p>
+<p>Couple of years ago when i approached my thirties i realized that maybe my life situation is not the way i was thinking it would be when i was eighteen. I also noticed that everything i dreamed about somehow disappeared or became less important. My life was automatic. I switched off Me and turned on the autopilot that was driving me from day to day. I wasn&rsquo;t excited about anything anymore. I was bored at work, i was bored with my friends and family and i did not see any way out.</p>
+<p>Somehow i thought the reason was the environment I was in. I was a victim of an environment where i could not express myself freely, was I telling myself. There were too few possibilities, there were too few opportunities, there were too few good jobs, there were too few good men, there were too few good parties ... so many too fews! I was watching life passing me by and wished so much to live! Oh, but little did i know that few years ahead, in a completely different place, different country, i would still feel the same. See, no matter where i go i am always taking myself along. There I am, stuck again with my thoughts.</p>
+<p>I moved to Denmark and stayed there for a little more than 2 years. At the beginning it was exciting. Meeting new people and discovering the new culture was keeping me busy for a while. But soon same old patterns and thoughts prevailed and I was stuck again. Stuck in an everyday life that i did not like. I wished to be somewhere else again. Somewhere where people were less boring, less closed and less diffident to foreigners, somewhere .... somewhere away from myself! How can i not see it that all the time the problems are inside my head and not around me?</p>
+<p>I want to break from the circle this time. I want to take the responsibility of my life and turn it around the way i WANT it to be.</p>
