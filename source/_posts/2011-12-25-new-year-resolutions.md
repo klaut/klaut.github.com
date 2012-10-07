@@ -2,6 +2,7 @@
 layout: post
 title: New Year Resolutions
 published: true
+comments: true
 ---
 <p>Only two resolutions I have this year:</p>
 <ul>
