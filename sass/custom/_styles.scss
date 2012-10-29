@@ -1,2 +1,85 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+$sans: "Open Sans", "Helvetica Neue", Arial, sans-serif !default;
+$serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
+$mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
+$heading-font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
+$header-title-font-family: $heading-font-family !default;
+$header-subtitle-font-family: $heading-font-family !default;
+
+$red: #A00909;
+$light-gray: #eee;
+$gray: #676767;
+
+.toggle-sidebar{
+  display: none;
+}
+
+body{
+
+  border-top: 4px solid $red;
+  font-family: $sans;
+  font-size: 1em;
+  line-height: 1.2em;
+  vertical-align: baseline;
+  color: #444;
+}
+
+a, a:hover {
+  color: $red;
+  text-decoration: none;
+}
+
+h1 {
+  // font-family: $serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #191919;
+}
+
+#main {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+aside.sidebar {
+  width: 280px;
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 30px;
+}
+
+#content {
+    width: 620px;
+    float:left;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-left: 1px solid $light-gray;
+
+  }
+
+article {
+  margin-bottom: 20px;
+  line-height: 1.5em;
+
+  h1 {
+    font-size: 1.8em;
+  }
+}
+
+footer{
+  clear: left;
+  &.contentinfo {
+    font-size: 0.7em;
+    color: $gray;
+    padding: 5px;
+    border-top: 1px solid $light-gray;
+  }
+}
