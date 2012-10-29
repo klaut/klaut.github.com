@@ -6,8 +6,9 @@ $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace 
 $heading-font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
 $header-title-font-family: $heading-font-family !default;
 $header-subtitle-font-family: $heading-font-family !default;
+$img-border: inline-image('dotted-border.png');
 
-$red: #A00909;
+$red: #b40d12;
 $light-gray: #eee;
 $gray: #676767;
 
@@ -28,13 +29,18 @@ body{
 a, a:hover {
   color: $red;
   text-decoration: none;
+  outline: 0;
 }
 
-h1 {
+h1, h2 {
   // font-family: $serif;
   font-size: 1.3em;
   font-weight: 600;
   color: #191919;
+}
+
+h2 {
+  font-size: 1.2em;
 }
 
 #main {
@@ -45,22 +51,44 @@ h1 {
 }
 
 aside.sidebar {
-  width: 280px;
+  width: 250px;
   float: left;
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  padding-top: 30px;
+  padding-top: 100px;
+
+  section {
+    margin-bottom: 10px;
+
+    header {
+      margin-bottom: 10px;
+    }
+
+    &#online-stalking {
+      font-size: 36px;
+      font-weight: 600;
+
+      margin: 30px 0 30px 0;
+      padding: 20px 0 20px 0;
+
+      a {
+        margin-right: 10px;
+      }
+      background: $img-border top left repeat-x;
+    }
+  }
+
 }
 
 #content {
-    width: 620px;
+    width: 630px;
     float:left;
     display: inline;
     margin-left: 10px;
     margin-right: 10px;
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 40px;
+    padding-top: 100px;
     border-left: 1px solid $light-gray;
 
   }
@@ -81,5 +109,11 @@ footer{
     color: $gray;
     padding: 5px;
     border-top: 1px solid $light-gray;
+    p {
+      width: 980px;
+      margin: 0 auto;
+    }
+
+    // padding-left: 400px;
   }
 }
