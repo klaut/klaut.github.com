@@ -14,7 +14,7 @@ $img-border: inline-image('dotted-border.png');
 
 $red: #b40d12; //#ba0084;
 $light-gray: #eee;
-$gray: #676767;
+$gray: #a0a0a0;
 
 .toggle-sidebar { display: none; }
 .left { float: left; }
@@ -24,7 +24,7 @@ pre, code, tt { @extend .mono; }
 
 body{
 
-  border-top: 50px solid $red;
+  border-top: 50px solid $light-gray;
   font-family: $sans;
   font-size: 1em;
   line-height: 1.2em;
@@ -61,16 +61,16 @@ header[role=banner] {
   width: 980px;
   margin: 0 auto;
   padding: 0;
-  color: #fff;
+  color: $red;
   section#logo {
     position: absolute;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     top: -35px;
     display: inline;
     margin-left: 10px;
     margin-right: 10px;
-    a { color: #fff; }
+    //a { color: #333; }
   }
 
 }
@@ -108,8 +108,12 @@ aside.sidebar {
 
       a {
         margin-right: 10px;
+        color: $light-gray;
+        &:hover {
+          color: $red;
+        }
       }
-      background: $img-border top left repeat-x;
+      //background: $img-border top left repeat-x;
     }
   }
 
@@ -129,8 +133,8 @@ aside.sidebar {
 
 .entry-content {
   background: $img-border bottom left repeat-x;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 article {
@@ -141,11 +145,16 @@ article {
     font-size: 1.8em;
   }
 
-  header { margin-bottom: 20px; }
+  header { margin-bottom: 50px; }
 }
 
 .meta{
   font-size: 0.8em; 
+}
+
+section.comments {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 #blog-archives {
