@@ -24,12 +24,13 @@ pre, code, tt { @extend .mono; }
 
 body{
 
-  border-top: 4px solid $red;
+  border-top: 50px solid $red;
   font-family: $sans;
   font-size: 1em;
   line-height: 1.2em;
   vertical-align: baseline;
   color: #444;
+  position: relative;
 }
 
 a {
@@ -56,6 +57,24 @@ p{
   margin-bottom: 10px;
 }
 
+header[role=banner] {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0;
+  color: #fff;
+  section#logo {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    top: -35px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    a { color: #fff; }
+  }
+
+}
+
 #main {
   position: relative;
   width: 980px;
@@ -73,12 +92,6 @@ aside.sidebar {
   font-size: 14px;
 
   section {
-    &#logo {
-      position: absolute;
-      font-size: 20px;
-      font-weight: 400;
-       top: 30px;
-    }
 
     margin-bottom: 20px;
 
@@ -133,6 +146,30 @@ article {
 
 .meta{
   font-size: 0.8em; 
+}
+
+#blog-archives {
+  h2 {
+    margin: 10px 0 10px 0;
+  }
+  article{
+    margin-bottom: 0;
+    margin-left: 30px;
+    time {
+      float: left;
+      font-size: 12px;
+      vertical-align: baseline;
+      &:after {
+        content: "";
+      }
+      margin-right: 10px;
+    }
+    h1 {
+      font-size: 18px;
+      vertical-align: baseline;
+      font-weight: 400;
+    }
+  }
 }
 
 .pagination {
