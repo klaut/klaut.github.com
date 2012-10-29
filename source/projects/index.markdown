@@ -1,10 +1,9 @@
 ---
 layout: page
 title: "projects"
-date: 2012-10-08 17:02
 comments: false
 sharing: false
-footer: true
+footer: false
 ---
 
 * [World Data Map](http://heroesneverpanic.com/world.data.map/)

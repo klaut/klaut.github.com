@@ -1,10 +1,14 @@
 <section>
   <header>
-    <h1>Hi!</h1>
-    <h2>I'm Tanja Pislar</h2>
+    <h1>Hi! I'm <a href="{{ root_url }}/">Tanja Pislar</a></h1>
   </header>
   <p>A little something about me.</p>
 </section>
+
+<section>
+  {% include navigation.html %}
+</section>
+
 <section id="online-stalking">
   <a title="klaut on Github" href="https://github.com/{{site.github_user}}">
     <i class="icon-github icon-large"></i>
