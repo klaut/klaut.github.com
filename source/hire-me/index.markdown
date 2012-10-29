@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "hire-me"
+title: "Hire me"
 comments: false
 sharing: false
 footer: false
+icon: "icon-briefcase"
 ---

@@ -8,13 +8,19 @@ $header-title-font-family: $heading-font-family !default;
 $header-subtitle-font-family: $heading-font-family !default;
 $img-border: inline-image('dotted-border.png');
 
-$red: #b40d12;
+.sans { font-family: $sans; }
+.serif { font-family: $serif; }
+.mono { font-family: $mono; }
+
+$red: #b40d12; //#ba0084;
 $light-gray: #eee;
 $gray: #676767;
 
-.toggle-sidebar{
-  display: none;
-}
+.toggle-sidebar { display: none; }
+.left { float: left; }
+.right { float: right; }
+
+pre, code, tt { @extend .mono; }
 
 body{
 
@@ -26,10 +32,13 @@ body{
   color: #444;
 }
 
-a, a:hover {
+a {
   color: $red;
   text-decoration: none;
   outline: 0;
+  &:hover{
+    text-decoration: none;
+  }
 }
 
 h1, h2 {
@@ -41,6 +50,10 @@ h1, h2 {
 
 h2 {
   font-size: 1.2em;
+}
+
+p{
+  margin-bottom: 10px;
 }
 
 #main {
@@ -57,16 +70,24 @@ aside.sidebar {
   margin-left: 10px;
   margin-right: 10px;
   padding-top: 100px;
+  font-size: 14px;
 
   section {
-    margin-bottom: 10px;
+    &#logo {
+      position: absolute;
+      font-size: 20px;
+      font-weight: 400;
+       top: 30px;
+    }
+
+    margin-bottom: 20px;
 
     header {
       margin-bottom: 10px;
     }
 
     &#online-stalking {
-      font-size: 36px;
+      font-size: 28px;
       font-weight: 600;
 
       margin: 30px 0 30px 0;
@@ -93,6 +114,12 @@ aside.sidebar {
     min-height: 400px;
   }
 
+.entry-content {
+  background: $img-border bottom left repeat-x;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
 article {
   margin-bottom: 20px;
   line-height: 1.5em;
@@ -100,6 +127,21 @@ article {
   h1 {
     font-size: 1.8em;
   }
+
+  header { margin-bottom: 20px; }
+}
+
+.meta{
+  font-size: 0.8em; 
+}
+
+.pagination {
+  font-size: 0.9em;
+  text-align: center;
+  .prev { float: left; }
+  .next { float: right; }
+
+  padding: 10px 0 10px 0;
 }
 
 footer{
@@ -117,3 +159,31 @@ footer{
     // padding-left: 400px;
   }
 }
+
+p, li {
+  code {
+    @extend .mono;
+    display: inline-block;
+    white-space: no-wrap;
+    background: #fff;
+    font-size: .8em;
+    line-height: 1.5em;
+    color: #555;
+    border: 1px solid #ddd;
+    @include border-radius(.4em);
+    padding: 0 .3em;
+    margin: -1px 0;
+  }
+  pre code { font-size: 1em !important; background: none; border: none; }
+}
+
+
+.gist {
+  font-size: 0.8em;
+  .gist-file {
+    .gist-data {
+      overflow: inherit !important;
+    }
+  }
+}
+
