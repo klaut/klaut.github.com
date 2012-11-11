@@ -8,6 +8,8 @@ $header-title-font-family: $heading-font-family !default;
 $header-subtitle-font-family: $heading-font-family !default;
 $img-border: inline-image('dotted-border.png');
 
+$adn-icon: inline-image('alpha-icon.png');
+
 .sans { font-family: $sans; }
 .serif { font-family: $serif; }
 .mono { font-family: $mono; }
@@ -19,6 +21,13 @@ $gray: #a0a0a0;
 .toggle-sidebar { display: none; }
 .left { float: left; }
 .right { float: right; }
+
+
+.icon-adn { 
+  background: $adn-icon left top no-repeat; 
+  width: 24px; 
+  height: 24px;
+}
 
 pre, code, tt { @extend .mono; }
 
@@ -132,7 +141,7 @@ aside.sidebar {
   }
 
 .entry-content {
-  background: $img-border bottom left repeat-x;
+  background: $img-border left bottom repeat-x;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
