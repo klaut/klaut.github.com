@@ -7,7 +7,8 @@ footer: false
 icon: "icon-beaker"
 ---
 
-* [World Data Map](http://heroesneverpanic.com/world.data.map/)
+{% projectlist my_projects.html %}
+
 * [The Booking Bee](http://thebookingbee.com)
 * [dopo.io](http://dopo.io)
 * [brio](http://heroesneverpanic.com/brio)
