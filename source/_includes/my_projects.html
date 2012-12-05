@@ -1,9 +1,14 @@
 {% if projects %}
-  <ul>
+  <ul class="projects">
   {% for project in projects %}
     <li>
       <h3>{% if project.link %}<a href="{{ project.link }}">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
       {{ project.content }}
+      {% if project.screenshot %}
+      <div class="screenshot">
+        <img src="{{ project.screenshot }}" >
+      </div>
+      {% endif %}
       {% if project.github or project.categories %}
       <ul class="metadata">
         {% if project.github %}<li><a href="{{ project.github }}">GitHub</a></li>{% endif %}
