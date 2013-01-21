@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Heroes Never Panic]]></title>
-  <link href="http://klaut.github.com/atom.xml" rel="self"/>
-  <link href="http://klaut.github.com/"/>
-  <updated>2013-01-21T13:23:02+00:00</updated>
-  <id>http://klaut.github.com/</id>
+  <link href="http://heroesneverpanic.com/atom.xml" rel="self"/>
+  <link href="http://heroesneverpanic.com/"/>
+  <updated>2013-01-21T13:27:26+00:00</updated>
+  <id>http://heroesneverpanic.com/</id>
   <author>
     <name><![CDATA[{"name"=>&#8220;Tanja Pislar&#8221;, &#8220;email&#8221;=>&#8221;tanja.pislar@gmail.com&#8221;, &#8220;github&#8221;=>&#8221;klaut&#8221;, &#8220;twitter&#8221;=>&#8221;tanjapislar&#8221;, &#8220;appdotnet&#8221;=>&#8221;tanja&#8221;, &#8220;tent_is&#8221;=>&#8221;tanja.tent.is&#8221;}]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[New Year Resolutions]]></title>
-    <link href="http://klaut.github.com/2011/12/25/new-year-resolutions"/>
+    <link href="http://heroesneverpanic.com/2011/12/25/new-year-resolutions"/>
     <updated>2011-12-25T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2011/12/25/new-year-resolutions</id>
+    <id>http://heroesneverpanic.com/2011/12/25/new-year-resolutions</id>
     <content type="html"><![CDATA[<p>Only two resolutions I have this year:</p>
 
 
@@ -37,9 +37,9 @@
   
   <entry>
     <title type="html"><![CDATA[Starting with Google AdWords]]></title>
-    <link href="http://klaut.github.com/2011/06/11/starting-with-google-adwords"/>
+    <link href="http://heroesneverpanic.com/2011/06/11/starting-with-google-adwords"/>
     <updated>2011-06-11T00:00:00+01:00</updated>
-    <id>http://klaut.github.com/2011/06/11/starting-with-google-adwords</id>
+    <id>http://heroesneverpanic.com/2011/06/11/starting-with-google-adwords</id>
     <content type="html"><![CDATA[<p>Few weeks ago I decided to try my first adwords campaign for <a href="http://www.thebookingbee.com">The Booking Bee beta sign up</a>. I wanted to try this MVP thing everyone speaks about and really see if I&rsquo;ll get some interest for the product before I really throw myself into it and build it.
 It was the first time I had to deal with AdWords. Knowing nothing about it I thought it would be enough doing my usual: scan the software, try out a few commands and usually getting the hang of it (or a general idea how to operate it) quite soon. Ad Words is a different beast, though. It is quite complex and it has a whole lot of terms that one needs to learn. It is not an afternoon job &ndash; it is more like a week (or two) project by itself. Not to mention the whole SEO thing (if you really want to do a good job).
 Here was my plan of action:</p>
@@ -118,9 +118,9 @@ Initially it was the name of the web app &ndash; The Booking Bee. This meant not
   
   <entry>
     <title type="html"><![CDATA[The most difficult thing is ...]]></title>
-    <link href="http://klaut.github.com/2011/05/21/the-most-difficult-thing-is-"/>
+    <link href="http://heroesneverpanic.com/2011/05/21/the-most-difficult-thing-is-"/>
     <updated>2011-05-21T00:00:00+01:00</updated>
-    <id>http://klaut.github.com/2011/05/21/the-most-difficult-thing-is-</id>
+    <id>http://heroesneverpanic.com/2011/05/21/the-most-difficult-thing-is-</id>
     <content type="html"><![CDATA[<p>Why is inertia so difficult to overcome?</p>
 
 
@@ -143,9 +143,9 @@ Initially it was the name of the web app &ndash; The Booking Bee. This meant not
   
   <entry>
     <title type="html"><![CDATA[Really, Don't Panic]]></title>
-    <link href="http://klaut.github.com/2011/04/18/really-don-t-panic"/>
+    <link href="http://heroesneverpanic.com/2011/04/18/really-don-t-panic"/>
     <updated>2011-04-18T00:00:00+01:00</updated>
-    <id>http://klaut.github.com/2011/04/18/really-don-t-panic</id>
+    <id>http://heroesneverpanic.com/2011/04/18/really-don-t-panic</id>
     <content type="html"><![CDATA[<p>Yet again I managed to neglect my duties towards Heroes Never Panic. I always seem to fall into same patterns of procrastination. I am hopeless :)</p>
 
 
@@ -189,9 +189,9 @@ Initially it was the name of the web app &ndash; The Booking Bee. This meant not
   
   <entry>
     <title type="html"><![CDATA[Time to Build And Launch an App]]></title>
-    <link href="http://klaut.github.com/2010/11/09/time-to-build-and-launch-an-app"/>
+    <link href="http://heroesneverpanic.com/2010/11/09/time-to-build-and-launch-an-app"/>
     <updated>2010-11-09T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2010/11/09/time-to-build-and-launch-an-app</id>
+    <id>http://heroesneverpanic.com/2010/11/09/time-to-build-and-launch-an-app</id>
     <content type="html"><![CDATA[<p>It is November. This means long nights, rain and wind (at least in Scotland). But it also means that the <a href="http://www.facebook.com/home.php?sk=group_141079939271952" title="HN November Launch Pad" target="_self">HN November Launch Pad</a> has started.</p>
 
 
@@ -211,9 +211,9 @@ Initially it was the name of the web app &ndash; The Booking Bee. This meant not
   
   <entry>
     <title type="html"><![CDATA[Essential Tools For a Web Developer on a Mac]]></title>
-    <link href="http://klaut.github.com/2010/08/21/essential-tools-for-a-web-developer-on-a-mac"/>
+    <link href="http://heroesneverpanic.com/2010/08/21/essential-tools-for-a-web-developer-on-a-mac"/>
     <updated>2010-08-21T00:00:00+01:00</updated>
-    <id>http://klaut.github.com/2010/08/21/essential-tools-for-a-web-developer-on-a-mac</id>
+    <id>http://heroesneverpanic.com/2010/08/21/essential-tools-for-a-web-developer-on-a-mac</id>
     <content type="html"><![CDATA[<p>Next time I get a new mac (or reinstall a fresh system) the following is a must have:</p>
 
 <ul>
@@ -238,9 +238,9 @@ Initially it was the name of the web app &ndash; The Booking Bee. This meant not
   
   <entry>
     <title type="html"><![CDATA[Something to remember]]></title>
-    <link href="http://klaut.github.com/2010/07/08/something-to-remember"/>
+    <link href="http://heroesneverpanic.com/2010/07/08/something-to-remember"/>
     <updated>2010-07-08T00:00:00+01:00</updated>
-    <id>http://klaut.github.com/2010/07/08/something-to-remember</id>
+    <id>http://heroesneverpanic.com/2010/07/08/something-to-remember</id>
     <content type="html"><![CDATA[<blockquote class="posterous_medium_quote">
 <p>For attractive lips, speak words of kindness.<br />For lovely eyes, seek out the good in people. <br />For a slim figure, share your food with the hungry. <br />For beautiful hair, let a child run his/her fingers through it once a day. <br />For poise, walk with the knowledge that you never walk alone. </p>
 <p>People, even more than things, have to be restored, renewed, revived, reclaimed, and redeemed; never throw out anyone. Remember, if you ever need a helping hand, you will find one at the end of each of your arms. As you grow older, you will discover that you have two hands; one for helping yourself, and the other for helping others.</p>
@@ -254,9 +254,9 @@ Initially it was the name of the web app &ndash; The Booking Bee. This meant not
   
   <entry>
     <title type="html"><![CDATA[Learning Haskell - Types And Functions]]></title>
-    <link href="http://klaut.github.com/2010/04/13/116"/>
+    <link href="http://heroesneverpanic.com/2010/04/13/116"/>
     <updated>2010-04-13T00:00:00+01:00</updated>
-    <id>http://klaut.github.com/2010/04/13/116</id>
+    <id>http://heroesneverpanic.com/2010/04/13/116</id>
     <content type="html"><![CDATA[<p>Haskell is a strongly typed static language.</p>
 
 <p>This means that Haskell will not automatically cast one type into another. In other words, you can’t expect it to treat an integer as a float. If you define a function that takes a float parameter and you feed it an integer afterwards, Haskell will complain. Having static types means that the compiler knows the type of every value and expression at compile time. Before anything is executed. So if we try and use types in an expression that don’t match (say, trying to add a string “3” to an integer 5), Haskell will complain. But there is a bonus: Haskell has type inference. Meaning, Haskell will deduce the type of a value or expression for us everywhere it can. This makes type declaration optional.</p>
@@ -288,9 +288,9 @@ add a b = a + b
   
   <entry>
     <title type="html"><![CDATA[Learning Haskell - First Date]]></title>
-    <link href="http://klaut.github.com/2010/03/30/learning-haskell-first-date"/>
+    <link href="http://heroesneverpanic.com/2010/03/30/learning-haskell-first-date"/>
     <updated>2010-03-30T00:00:00+01:00</updated>
-    <id>http://klaut.github.com/2010/03/30/learning-haskell-first-date</id>
+    <id>http://heroesneverpanic.com/2010/03/30/learning-haskell-first-date</id>
     <content type="html"><![CDATA[<p>Monday is here and so I met for the first time with Haskell.</p>
 
 <p>Installation went quickly and without any problems (installed the <a href="http://hackage.haskell.org/platform/">Haskell platform for macosx</a>). You get a compiler, a bunch of standard modules and an interactive interpreter. I like having the interpreter as a way to quickly try out stuff in Python, so the fact that Haskell has its own as well immediately gained points  with me :)</p>
@@ -359,9 +359,9 @@ ghci&gt; [1,2,3]</code></p>
   
   <entry>
     <title type="html"><![CDATA[Ada Lovelace Day 2010]]></title>
-    <link href="http://klaut.github.com/2010/03/24/ada-lovelace-day-2010"/>
+    <link href="http://heroesneverpanic.com/2010/03/24/ada-lovelace-day-2010"/>
     <updated>2010-03-24T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2010/03/24/ada-lovelace-day-2010</id>
+    <id>http://heroesneverpanic.com/2010/03/24/ada-lovelace-day-2010</id>
     <content type="html"><![CDATA[<p>Today is the <a href="http://findingada.com/">Ada Lovelace Day</a> - a day to celebrate women in technology and science.</p>
 
 <p>Although I am not much into dividing people into groups based on gender, race, religion, etc, it is a very noticeable fact that there simply are too few women in technology. I noticed it since I first developed an interest for computers, I continued to notice it during the university (hey, in the first year there were maybe 10 girls out of 100 students!) and it is a regular fact in every job that I had. Usually, I was one of the few female programmers, sometimes the only one.</p>
@@ -376,9 +376,9 @@ ghci&gt; [1,2,3]</code></p>
   
   <entry>
     <title type="html"><![CDATA[Learning Haskell - Before I Start]]></title>
-    <link href="http://klaut.github.com/2010/03/23/learning-haskell-before-i-start"/>
+    <link href="http://heroesneverpanic.com/2010/03/23/learning-haskell-before-i-start"/>
     <updated>2010-03-23T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2010/03/23/learning-haskell-before-i-start</id>
+    <id>http://heroesneverpanic.com/2010/03/23/learning-haskell-before-i-start</id>
     <content type="html"><![CDATA[<p>Each Monday from now on, I am going to publish a small step that I made during the week into mastering <a href="http://www.haskell.org/">Haskel</a>l. This is a commitment that I make to myself and by deciding to make the progress public (although you may be the one and only reader) I am kind of forcing myself to stick to it.</p>
 
 <p>Why Haskell? Why now?</p>
@@ -393,9 +393,9 @@ ghci&gt; [1,2,3]</code></p>
   
   <entry>
     <title type="html"><![CDATA[What do you want to end up doing?]]></title>
-    <link href="http://klaut.github.com/2010/03/20/what-do-you-want-to-end-up-doing-"/>
+    <link href="http://heroesneverpanic.com/2010/03/20/what-do-you-want-to-end-up-doing-"/>
     <updated>2010-03-20T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2010/03/20/what-do-you-want-to-end-up-doing-</id>
+    <id>http://heroesneverpanic.com/2010/03/20/what-do-you-want-to-end-up-doing-</id>
     <content type="html"><![CDATA[<p>We had a night out with the company i am working for, yesterday. It was a goodbye night for one of the guys that quitted and is going to start his own business. He did exactly what my plans are. Starting my own thing on the side and then, when it starts to bring in some money, quit the 9-5 and focus on it entirely.</p>
 
 
@@ -427,9 +427,9 @@ ghci&gt; [1,2,3]</code></p>
   
   <entry>
     <title type="html"><![CDATA[Dear Diary ...]]></title>
-    <link href="http://klaut.github.com/2010/03/13/dear-diary-"/>
+    <link href="http://heroesneverpanic.com/2010/03/13/dear-diary-"/>
     <updated>2010-03-13T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2010/03/13/dear-diary-</id>
+    <id>http://heroesneverpanic.com/2010/03/13/dear-diary-</id>
     <content type="html"><![CDATA[<p>Reading <a href="http://www.amazon.com/Linchpin-Are-Indispensable-Seth-Godin/dp/1591843162">Linchpin</a> and <a href="http://www.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591842808/">Start With Why</a> at the moment (yes, I always read more than one book in parallel). They make me asking myself why am I not producing more of what I believe in. The truth is, I am not sure how to do it. And I am afraid to fail. I need to fight with this fear everyday, telling myself that it is GOOD to fail. Because when you fail, you are one failure closer to your goal.</p>
 
 
@@ -446,9 +446,9 @@ ghci&gt; [1,2,3]</code></p>
   
   <entry>
     <title type="html"><![CDATA[Weekends Are For Cooking]]></title>
-    <link href="http://klaut.github.com/2010/03/02/weekends-are-for-cooking"/>
+    <link href="http://heroesneverpanic.com/2010/03/02/weekends-are-for-cooking"/>
     <updated>2010-03-02T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2010/03/02/weekends-are-for-cooking</id>
+    <id>http://heroesneverpanic.com/2010/03/02/weekends-are-for-cooking</id>
     <content type="html"><![CDATA[<p>I moved to Scotland in September 2009. I am slowly settling down (meaning my apartment is getting filled up with stuff that will just get in the way when i am moving again) but i miss good food. Let&rsquo;s face it - Scotts do not eat well. I don&rsquo;t like haggis or fish &lsquo;n&rsquo; chips. And i cannot eat steak every day. I was using microwave and buying ready made food from Tesco at the beginning (to save time mainly) but this is not a healthy diet and you see the results on your body pretty quick. Gym alone won&rsquo;t help.</p>
 
 
@@ -465,9 +465,9 @@ ghci&gt; [1,2,3]</code></p>
   
   <entry>
     <title type="html"><![CDATA[How to Gain More Time (part 1)]]></title>
-    <link href="http://klaut.github.com/2010/03/01/how-to-gain-more-time-part-1-"/>
+    <link href="http://heroesneverpanic.com/2010/03/01/how-to-gain-more-time-part-1-"/>
     <updated>2010-03-01T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2010/03/01/how-to-gain-more-time-part-1-</id>
+    <id>http://heroesneverpanic.com/2010/03/01/how-to-gain-more-time-part-1-</id>
     <content type="html"><![CDATA[<p>You gain time by being efficient. The problem is, I am anything but efficient. I need to change.</p>
 
 
@@ -493,9 +493,9 @@ ghci&gt; [1,2,3]</code></p>
   
   <entry>
     <title type="html"><![CDATA[Ditching Subversion]]></title>
-    <link href="http://klaut.github.com/2010/02/24/ditching-subversion"/>
+    <link href="http://heroesneverpanic.com/2010/02/24/ditching-subversion"/>
     <updated>2010-02-24T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2010/02/24/ditching-subversion</id>
+    <id>http://heroesneverpanic.com/2010/02/24/ditching-subversion</id>
     <content type="html"><![CDATA[<p>Version control systems are important. No argue about that. At places where i used to work (and am currently working) i had the pleasure to meet three systems: cvs, perforce and subversion. All three have one important thing in common - they all suck. Well, some suck less than others (like subversion).</p>
 
 <p>For my pet projects i decided to try these new kids on the block (read distributed version controls). I narrowed down to two: <a href="http://git-scm.com/">git</a> and <a href="http://mercurial.selenic.com/">mercurial</a>. I went for mercurial. Why? Well, first because it is written in Python and i have a thing for Python. I just love it. Second because <a href="http://bitbucket.org/">bitbucket</a> looks just nicer and cooler than <a href="https://github.com/">github</a>. And third &#8230; well, I think <a href="http://hginit.com/">this guide by Joel Spolsky</a> explains it much much better than i could do. Enjoy and be persuaded ;)</p>
@@ -504,9 +504,9 @@ ghci&gt; [1,2,3]</code></p>
   
   <entry>
     <title type="html"><![CDATA[A Reminder To Myself]]></title>
-    <link href="http://klaut.github.com/2010/01/28/a-reminder-to-myself"/>
+    <link href="http://heroesneverpanic.com/2010/01/28/a-reminder-to-myself"/>
     <updated>2010-01-28T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2010/01/28/a-reminder-to-myself</id>
+    <id>http://heroesneverpanic.com/2010/01/28/a-reminder-to-myself</id>
     <content type="html"><![CDATA[<p>I like reading material on startups. It keeps me in a dreaming state where everything is possible and others successes are somehow mine as well.</p>
 
 
@@ -529,9 +529,9 @@ ghci&gt; [1,2,3]</code></p>
   
   <entry>
     <title type="html"><![CDATA[Wherever I Go There I Am]]></title>
-    <link href="http://klaut.github.com/2009/12/10/wherever-i-go-there-i-am"/>
+    <link href="http://heroesneverpanic.com/2009/12/10/wherever-i-go-there-i-am"/>
     <updated>2009-12-10T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2009/12/10/wherever-i-go-there-i-am</id>
+    <id>http://heroesneverpanic.com/2009/12/10/wherever-i-go-there-i-am</id>
     <content type="html"><![CDATA[<p>While pondering about what to write next i realized that perhaps a little bit of background could be helpful. Perhaps helpful for me to see my patterns of behavior and thinking.</p>
 
 
@@ -551,9 +551,9 @@ ghci&gt; [1,2,3]</code></p>
   
   <entry>
     <title type="html"><![CDATA[Day One - The Day It All Began]]></title>
-    <link href="http://klaut.github.com/2009/12/06/day-one-the-day-it-all-began"/>
+    <link href="http://heroesneverpanic.com/2009/12/06/day-one-the-day-it-all-began"/>
     <updated>2009-12-06T00:00:00+00:00</updated>
-    <id>http://klaut.github.com/2009/12/06/day-one-the-day-it-all-began</id>
+    <id>http://heroesneverpanic.com/2009/12/06/day-one-the-day-it-all-began</id>
     <content type="html"><![CDATA[<p>The idea of starting something of my own, my own web based startup, and growing along the way has been burning inside me for some time now. I think it&#8217;s been something like two years that i am thinking about it but not much has actually been done yet. Up until today. Well, not that today i am going to do something extraordinary. It is just that today i decided to log the progress i am making (hopefully on a weekly, if not daily, basis) to carry this hidden desire of mine from a simple fantasy to actual execution.</p>
 
 
@@ -567,9 +567,9 @@ ghci&gt; [1,2,3]</code></p>
   
   <entry>
     <title type="html"><![CDATA[Discovering Twitter]]></title>
-    <link href="http://klaut.github.com/2009/05/06/discovering-twitter"/>
+    <link href="http://heroesneverpanic.com/2009/05/06/discovering-twitter"/>
     <updated>2009-05-06T00:00:00+01:00</updated>
-    <id>http://klaut.github.com/2009/05/06/discovering-twitter</id>
+    <id>http://heroesneverpanic.com/2009/05/06/discovering-twitter</id>
     <content type="html"><![CDATA[<p>I just finished reading a little book by Tim O&#8217;Reilly and Sarah Milstei, <a href="http://oreilly.com/catalog/9780596802813/">The Twitter Book</a>. It is aimed at Twitter newbies (such as myself) and it does a nice job explaining the power of Twitter and all its various usages for personal and business needs. It didn’t took me long to finish it as well, as it is written in the spirit of Twitter - short and to the point. It takes you from a Twitter ignorant to a pro in no time ;)</p>
 
 <p>But why would one want to know about Twitter anyway? Hmmm, tough one. To be honest, i didn’t see much value in Twitter either, when i first created an account. I actually didn’t use it much at all - I wasn’t sure why i needed yet another communication channel to tell the world about what I’m doing, thinking, eating. I have a blog, like everyone else, right? And I’m not posting much on it. I have an account on Facebook like everyone else, right? But i am not using it much apart from playing Texas Hold’em occasionally. So what is different with Twitter that would make me tweet regularly each week, or day, or even more times per day? And who would care about it anyway?</p>
