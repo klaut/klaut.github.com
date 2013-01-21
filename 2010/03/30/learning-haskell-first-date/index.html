@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Learning Haskell - First Date - Heroes Never Panic</title>
+  <meta name="author" content="Tanja Pislar">
+
+  
+  <meta name="description" content="Monday is here and so I met for the first time with Haskell. Installation went quickly and without any problems (installed the Haskell platform for &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://klaut.github.com/2010/03/30/learning-haskell-first-date">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Heroes Never Panic" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-514655-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><section id="logo">
+  <a href="/">heroes never panic</a>
+</section>
+</header>
+  <div id="main">
+    
+    <aside class="sidebar">
+      
+        <section>
+  <header>
+    <h1>Hi! I'm Tanja Pislar</h1>
+  </header>
+  <p>I work with code that does cool stuff on the web.</p>
+  <p>I am freelancing from Edinburgh, Scotland.</p>
+  <p>You can <a href="/hire-me">hire me</a> to help you be more awesome.</p>
+</section>
+
+<section>
+  <ul class="main-navigation">
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/illustrations">Illustrations</a></li>
+  <!--li><a href="/blog/archives">Archives</a></li -->
+</ul>
+
+</section>
+
+<section id="online-stalking">
+  <a title="klaut on Github" href="https://github.com/klaut">
+    <i class="icon-github icon-large"></i>
+  </a>
+  <a title="tanjapislar on Twitter" href="http://twitter.com/tanjapislar">
+    <i class="icon-twitter icon-large"></i>
+  </a>
+  <a title="tanja on ADN" href="https://alpha.app.net/tanja">
+    <i class="icon-adn icon-large"></i>
+  </a>
+  <a  href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">
+    <i class="icon-rss icon-large"></i>
+  </a>
+  <a  href="mailto:tanja@heroesneverpanic.com" title="email me">
+    <i class="icon-envelope-alt icon-large"></i>
+  </a>
+</section>
+
+      
+    </aside>
+    
+    
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">
+        Learning Haskell - First Date
+      </h1>
+    
+    
+  </header>
+
+
+<div class="entry-content"><p>Monday is here and so I met for the first time with Haskell.</p>
+
+<p>Installation went quickly and without any problems (installed the <a href="http://hackage.haskell.org/platform/">Haskell platform for macosx</a>). You get a compiler, a bunch of standard modules and an interactive interpreter. I like having the interpreter as a way to quickly try out stuff in Python, so the fact that Haskell has its own as well immediately gained points  with me :)</p>
+
+<p>It is much more convenient while you learn to have an immediate feedback than having to type some code to a file and compiling.</p>
+
+<p>First thing you try is the “command line calculator”. Haskell is behaving as you would expect it to behave:
+<code>ghci&gt; 2 + 4
+ghci&gt; 6</code></p>
+
+<p>All the usual suspects are here: addition, multiplication, subtraction &#8230; nothing differs from Python.
+But then quickly the similarities stop to be, well, similar.</p>
+
+<p>Haskell is a functional language and as such it does not modify state. That, translated to something meaningful to me is: variables are just symbols that hold values. Once you assign a value to a variable you can’t change it. Variables in Python and variables in Haskell are not the same. At the moment it is still difficult for me to grasp what this mean and how it can be useful. But right now I am still looking and evaluating Haskell from the imperative languages point of view. Also the fact that Haskell is known to be <em>lazy</em> is somehow odd, but then it sounds like a cool feature - the fact that it won’t bother to compute things until it is really forced to do so.</p>
+
+<p>This means that you can create lists with infinite number of elements and Haskell it is quite happy to create them for you. Fast. Well, unless you try to create them at the interactive interpreter. You will have to stop it from spitting all the numbers till the end:
+<code>ghci&gt; [1..]</code></p>
+
+<p><strong>Lists.</strong></p>
+
+<p>They can have unlimited amounts of elements. But the elements must be all of the same type. Strings as we know them are lists of chars so the following examples are all the same to Haskell:
+<code>ghci&gt; “hello”
+ghci&gt; [“h”,”e”,”l”,”l”,”o”</code>]</p>
+
+<p>If you want quickly construct a list of ranges you can do: [1..100]. This will create a list of numbers from 1 to 100. You can specify a step to the range as well: [1,3..20]. This will create the following list: [1,3,5,7,9,11,13,15,17,19].</p>
+
+<p>For concatenating strings or lists you would use: [1,2] ++ [3,4] or “hello” ++ “ “ ++ “world”. Basically the ++ function inserts the stuff on the right (which must be a list) at the end of the list on the left side. But what if i want to insert something at the beginning? I can do that:
+<code>ghci&gt; a:[b,c,d]
+ghci&gt; [a,b,c,d]</code></p>
+
+<p>The only difference: the thing you insert is a single element. Not a list.</p>
+
+<p>If you want to get the second element from a list (the indices start at 0) you would use the !! (yes, that is double exclamation mark):
+<code>ghci&gt; [1,2,3,4]!!1
+ghci&gt; 2</code></p>
+
+<p>There is a whole bunch of functions to manipulate lists and they all sound quite exotic (although I did remembered my CS semester of Prolog while trying some of them out).
+Let’s say you want the first element from the list:
+<code>ghci&gt; head [1,2,3,4]
+ghci&gt; 1</code></p>
+
+<p>What about the last?
+<code>ghci&gt; last [1,2,3,4]
+ghci&gt; 4</code></p>
+
+<p>To get everything but the first element you use tail:
+<code>ghci&gt; tail [1,2,3,4]
+ghci&gt; [2,3,4]</code></p>
+
+<p>And everything but the last element? init.
+<code>ghci&gt; init [1,2,3,4]
+ghci&gt; [1,2,3]</code></p>
+
+<p>There is a lot of very well written and comprehensible material online that i am using as a learning material. Some of the best resource that I found are:</p>
+
+<ul>
+    <li><a href="http://learnyouahaskell.com/">Learn You A Haskell For Great Good</a></li>
+    <li><a href="http://book.realworldhaskell.org/read/">Real World Haskell</a></li>
+    <li><a href="http://en.wikibooks.org/wiki/Haskell">Haskell Wikibook</a></li>
+</ul>
+
+
+<p>All in all, I enjoyed my Monday evening. Haskell does feel strange for now and I can’t possibly think of how i would go on about writing real life programs with it. But hey, it is only my first Monday :)</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">posted by <span class="fn">Tanja Pislar</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-30T00:00:00+01:00" pubdate data-updated="true">Mar 30<span>th</span>, 2010</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2010/03/24/ada-lovelace-day-2010" title="Previous Post: Ada Lovelace Day 2010">&laquo; Ada Lovelace Day 2010</a>
+      
+      
+        <a class="basic-alignment right" href="/2010/04/13/116" title="Next Post: Learning Haskell - Types And Functions">Learning Haskell - Types And Functions &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo" class="contentinfo"><p>
+  Copyright &copy; 2013 - Tanja Pislar -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'heroesneverpanic';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

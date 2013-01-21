@@ -1,0 +1,510 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Heroes Never Panic</title>
+  <meta name="author" content="Tanja Pislar">
+
+  
+  <meta name="description" content="In order to learn AS2 i&#8217;ve started to study java more intensely and translate various code snippets to AS2 and to great suprise, some of them &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://klaut.github.com/blog/page/6/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Heroes Never Panic" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-514655-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><section id="logo">
+  <a href="/">heroes never panic</a>
+</section>
+</header>
+  <div id="main">
+    
+    <aside class="sidebar">
+      
+        <section>
+  <header>
+    <h1>Hi! I'm Tanja Pislar</h1>
+  </header>
+  <p>I work with code that does cool stuff on the web.</p>
+  <p>I am freelancing from Edinburgh, Scotland.</p>
+  <p>You can <a href="/hire-me">hire me</a> to help you be more awesome.</p>
+</section>
+
+<section>
+  <ul class="main-navigation">
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/illustrations">Illustrations</a></li>
+  <!--li><a href="/blog/archives">Archives</a></li -->
+</ul>
+
+</section>
+
+<section id="online-stalking">
+  <a title="klaut on Github" href="https://github.com/klaut">
+    <i class="icon-github icon-large"></i>
+  </a>
+  <a title="tanjapislar on Twitter" href="http://twitter.com/tanjapislar">
+    <i class="icon-twitter icon-large"></i>
+  </a>
+  <a title="tanja on ADN" href="https://alpha.app.net/tanja">
+    <i class="icon-adn icon-large"></i>
+  </a>
+  <a  href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">
+    <i class="icon-rss icon-large"></i>
+  </a>
+  <a  href="mailto:tanja@heroesneverpanic.com" title="email me">
+    <i class="icon-envelope-alt icon-large"></i>
+  </a>
+</section>
+
+      
+    </aside>
+    
+    
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2003/11/02/string-permutations-from-java-to-as2">
+          String Permutations (From Java to AS2)
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>In order to learn AS2 i&#8217;ve started to study java more intensely and translate various code snippets to AS2 and to great suprise, some of them can be just copy/pasted (syntactically speaking).
+Here&#8217;s an example. I came across <a href="http://www.cs.virginia.edu/~cs101/code/">this link </a>with some usefull java code to learn from. If you take a look at this <a href="http://www.cs.virginia.edu/~cs101/code/ch11/PermuteString.java">PermuteString java</a> class and the AS2 version below, you can see that i merely copied the code meat into an AS2 class (yeah, shame on me!).</p>
+
+<p><code>
+class StringPermutator
+{
+private var <strong>word:String;
+private var </strong>index:Number;
+private var __substring:StringPermutator;</code></p>
+
+<p><code>function StringPermutator(s:String)
+{
+<strong>word = s;
+</strong>index = 0;
+if(s.length &gt; 1) __substring = new StringPermutator(s.substring(1));
+}</code></p>
+
+<p><code>public function hasMorePermutations():Boolean
+{
+return __index</code></p>
+
+<p><a href="http://www.klaustrofobik.org/blog/stuff/actionscript/permute_test.html">and you can test it here.</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2003/11/02/flash-2004-command-line-compiler">
+          Flash 2004 Command Line Compiler
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>Mike Chambers released FlashCommand (a commandline compiler for Flash 2004).
+<a href="http://www.markme.com/mesh/archives/003656.cfm">read more about it here.</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2003/11/01/almost-died">
+          Almost Died&#8230;
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>Yesterday (31st october) was a strange day.
+I could not boot my machine and it looked like one of my hds just died! This would mean all my important stuff (work files, mails and other things) would be gone for good&#8230;. of course, my last backup was from.. ehm&#8230; last year? :(
+Anyway, i was scared like shit.. and frustrated.. and pissed off.. and&#8230; and&#8230;
+There was no point in staring at the &#8220;failed to boot. please insert the system disk and press enter&#8221; message all day, so i switched the machine off and went doing other things (like hanging around with my dog and cats and other social stuff - seeing people!) &#8230;.</p>
+
+<p>I woke up this morning, determined to fix the problem ( taking the corruped HD out and making a new, clean install of the OS - i already said goodbye to my files)  &#8230;. i just wanted to try to boot it for the last time, although i already knew it would be in vain &#8230;&#8230; GUESS WHAT??? it booted alright! everything is like.. ok! i mean.. what happened yesterday? did one of the hard drives decide to dress up like a ghost and play invisible for the halloween?</p>
+
+<p>oh, well&#8230; im doing my backups today :)</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2003/10/24/jsapi-reference">
+          JSAPI Reference
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>Tired of waiting for the official MM jsapi reference?
+Here&#8217;s a nice one: <a href="http://www.actionscript.nl/JSAPI/frameI.htm">JSAPI Overview</a></p>
+
+<p>via <a href="http://chattyfig.figleaf.com/">flashcoders</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2003/10/23/extending-as2-array">
+          Extending AS2 Array
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>According to <a href="http://www.gskinner.com/blog/archives/000021.html">gSkinner&#8217;s post</a>, when you extend an array you must call the superClass constructor in a particular way so that the indefinite amount of arguments get passed along correctly to the parent class:
+<code>
+class ArrayExtended extends Array
+{</p>
+
+<pre><code>function ArrayExtended(){
+    super.constructor.apply(this, arguments);
+}
+public function someFunc(){
+      return length;
+}
+</code></pre>
+
+<p>}
+</code>
+Well, that never worked for me&#8230; actually that&#8217;s very strange because it appears as if it works for some but not for others..</p>
+
+<p>today i came across a post a <a href="http://www.tweenpix.net/cgi-bin/mt-comments.cgi?entry_id=36">Tween Pix</a> and the solution that i saw there is working:
+<code>
+class ArrayExtended extends Array
+{</p>
+
+<pre><code>function ArrayExtended(){
+    splice.apply(this, [0, 0].concat(arguments));
+}
+public function someFunc(){
+      return length;
+}
+</code></pre>
+
+<p>}
+</code></p>
+
+<p>but im still wondering WHY the gskinner&#8217;s variant doesn&#8217;t work for me??!</p>
+
+<p><b>UPDATE:</b>
+The solution above (the one that works for me) was actually first posted at <a href="http://chattyfig.figleaf.com/ezmlm/ezmlm-cgi?1:mss:90588">flashcoders mailing list</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2003/10/19/central-first-try">
+          Central - First Try
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>Today i&#8217;ve been playing with <a href="http://www.macromedia.com/devnet/central/sdk/">macromedia central sdk</a>. There is quite some new stuff to learn but it&#8217;s quite easy to make some simple &#8220;begginer&#8221; applications :)
+well.. here&#8217;s mine:
+<a href="http://www.klaustrofobik.org/centralApps/fullAsAGoogReader/installer.html">GoogService</a></p>
+
+<p>Its a <a href="http://www.fullasagoog.com/">fullasagoog</a> blog readed and it uses flash remoting to connect to <a href="http://www.fullasagoog.com/webservice.cfm">goog&#8217;s webservice.</a>
+It&#8217;s still in its early stage and it&#8217;s not really good looking, but it gets the job done for now :)
+anyway.. now i have to learn how to save downloaded blogs for off line reading!</p>
+
+<p>Many thanks to <a href="http://www.centralmx.com/">centralmx</a>  for posting it at their site! :)</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2003/10/16/new-flash-forum">
+          New Flash Forum
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>Through <a href="http://www.swfoo.com/"> Dave Yang&#8217;s blog</a> I heard that a new Flash forum was born: <a title="Index" href="http://brajeshwar.net/forum/index.php">Brajeshwar Flash Forum </a>
+Looks really promising.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2003/10/15/css-lists-and-floats">
+          CSS Lists and Floats
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>While browsing around today i came across this site with some cool css tutorials on lists and floats:
+<a title="css.maxdesign.com.au" href="http://css.maxdesign.com.au/index.htm">css.maxdesign.com.au</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2003/10/09/new-ui-components-for-flashmx2004">
+          New UI Components for FlashMX2004
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>Joey Lott, the author of Actionscript Cookbook, has posted a set of UI Flash Components at his site:
+- Button
+- Loader
+- ProgressBar
+- ScrollBar
+- ScrollPane
+- Window
+- TextArea</p>
+
+<p>The reason, he writes, for making them is because the current MM components are rather heavy.. and some of them do not work properly.
+Lott&#8217;s components are still in the alpha stage, but if you want to try them you can download them here:
+<a title="www.person13.com" href="http://www.person13.com/components/">www.person13.com/components</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2003/10/05/webservices-are-easy">
+          Webservices Are Easy
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>Just out of curiosity i tried the webserviceConnector component. I really wanted to see if it really is that simple to set up and use (as everybody is saying)&#8230;
+And, honestly, it took me 15 minutes to make it (5 minutes were spent on deciding which webservice i&#8217;m going to use).
+Knowing that <a href="http://www.webservicex.net/ws/default.aspx">WebserviceX.Net</a> have recently put a crossdomain policy file up on their server, i tried my luck with their leingth/distance converter:
+http://www.webservicex.net/length.asmx?WSDL</p>
+
+<p><a href="http://www.klaustrofobik.org/blog/stuff/webservice_LengthConverter.html">Preview the service here</a></p>
+
+<p>All you have to do is to open web service window (Window/developer Panels/Web Services), click on Define web service icon (that thing that looks like Earth) and type the url of the service in the pop up window. After a while (when flash connects to the service and recieves back the response) all the methods aviable from this service will be listed in that window. Now its&#8217; only a matter of selecting which one you want to use, right click on it and select &#8220;Add method call&#8221; and flash will automatically place an instance of WebserviceConnector component on the stage.
+I also added a couple of comboboxes (for the unit names), a textInput , a textArea (which will display a result from the conversion) and a button on the stage.
+The trickiest part now is to bind the webserviceConnector to other components on stage. Ok, it sounds tricky, but it really is not ;)
+Select the webserviceConnector and click on the bindings tab in the Component Inspector panel and add your bindings (click on the +)&#8230; I added the simplest one first, the result that the service will send me. I selected it (the last one, called results:Number) and then set the &#8220;bound to&#8221; to point to my textArea component (more preciselly, its text property). I did the same with other parameters:
+params.LengthValue - bounded to textInput field:text
+params.fromLengthUnit - bounded to fromLengthUnit_combobox:value
+params.toLengthUnit - bounded to toLengthUnit_combobox:value</p>
+
+<p>now, what&#8217;s left is just few lines of code: we want to trigger the service when we click on the button, so we have to write an event handler for that:
+<code>
+goConvert = function (ev)
+{
+//ChangeLength_wbs is the instance name of the webservice component</p>
+
+<pre><code>ChangeLength_wbs.trigger();
+</code></pre>
+
+<p>};</p>
+
+<p>convertButton_pb.addEventListener(&#8220;click&#8221;, goConvert);</p>
+
+<p></code></p>
+
+<p>Attached is a zipped fla for taking a closer look :)</p>
+
+<p><a href="http://www.klaustrofobik.org/blog/stuff/webservice_LengthConverter.zip">Download zipped file</a></p>
+
+<p>UPDATE:
+Just noticed that <a href="http://www.mediasparkles.com/2003_10_05_archives.html#106537575512611530">Vera Fleischer</a> has written a great in-depth post on how to use webserviceConnector :)</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/7/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/5/">Newer &rarr;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo" class="contentinfo"><p>
+  Copyright &copy; 2013 - Tanja Pislar -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'heroesneverpanic';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

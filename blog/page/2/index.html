@@ -1,0 +1,502 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Heroes Never Panic</title>
+  <meta name="author" content="Tanja Pislar">
+
+  
+  <meta name="description" content="Each Monday from now on, I am going to publish a small step that I made during the week into mastering Haskell. This is a commitment that I make to &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://klaut.github.com/blog/page/2/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Heroes Never Panic" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-514655-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><section id="logo">
+  <a href="/">heroes never panic</a>
+</section>
+</header>
+  <div id="main">
+    
+    <aside class="sidebar">
+      
+        <section>
+  <header>
+    <h1>Hi! I'm Tanja Pislar</h1>
+  </header>
+  <p>I work with code that does cool stuff on the web.</p>
+  <p>I am freelancing from Edinburgh, Scotland.</p>
+  <p>You can <a href="/hire-me">hire me</a> to help you be more awesome.</p>
+</section>
+
+<section>
+  <ul class="main-navigation">
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/illustrations">Illustrations</a></li>
+  <!--li><a href="/blog/archives">Archives</a></li -->
+</ul>
+
+</section>
+
+<section id="online-stalking">
+  <a title="klaut on Github" href="https://github.com/klaut">
+    <i class="icon-github icon-large"></i>
+  </a>
+  <a title="tanjapislar on Twitter" href="http://twitter.com/tanjapislar">
+    <i class="icon-twitter icon-large"></i>
+  </a>
+  <a title="tanja on ADN" href="https://alpha.app.net/tanja">
+    <i class="icon-adn icon-large"></i>
+  </a>
+  <a  href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">
+    <i class="icon-rss icon-large"></i>
+  </a>
+  <a  href="mailto:tanja@heroesneverpanic.com" title="email me">
+    <i class="icon-envelope-alt icon-large"></i>
+  </a>
+</section>
+
+      
+    </aside>
+    
+    
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2010/03/23/learning-haskell-before-i-start">
+          Learning Haskell - Before I Start
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>Each Monday from now on, I am going to publish a small step that I made during the week into mastering <a href="http://www.haskell.org/">Haskel</a>l. This is a commitment that I make to myself and by deciding to make the progress public (although you may be the one and only reader) I am kind of forcing myself to stick to it.</p>
+
+<p>Why Haskell? Why now?</p>
+
+<p>Well, first, let me tell you that learning a new programming language is actually very exciting. It is  like when you were a kid and you were given a new toy. Remember how excited you were? You just could not wait to unwrap it and start playing.</p>
+
+<p>Having said that, Haskell has been on my radar for some time. I just never really took the time to start looking deeper into it. And I realized that if I am going to wait until I think I have more time, it is never going to happen. You have only so much time as you give it to yourself. So this excuse is not going to cut it anymore.</p>
+
+<p>Oh, and why Haskell I hear you wonder? Because I want to add a functional programming language to my arsenal. Because it is gaining in popularity but it is still underground enough to feel exotic. Because it is lazy. Because I&#8217;ve been pretty intrigued about what <a href="http://en.wikipedia.org/wiki/Monad_(functional_programming)">monad</a> is.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2010/03/20/what-do-you-want-to-end-up-doing-">
+          What Do You Want to End Up Doing?
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>We had a night out with the company i am working for, yesterday. It was a goodbye night for one of the guys that quitted and is going to start his own business. He did exactly what my plans are. Starting my own thing on the side and then, when it starts to bring in some money, quit the 9-5 and focus on it entirely.</p>
+
+
+<p>I spent some time chatting with another guy who was actually the founder of the aforementioned company. The company has been acquired last year and he is not working full time here anymore, just some hours a week because he likes it. He is doing other things in his life and one of them is mentoring local &ldquo;problematic&rdquo; teenagers (all of them coming from difficult situations within their families).</p>
+
+
+<p>I have no idea how (and maybe the reason were a couple of beers we all had) but we ended up talking about the purpose of life. He asked me why I came here, what is my drive, what i want from life. I said that coming to Scotland was just a coincidence but my main purpose is being free and independent and doing stuff that fulfills me.</p>
+
+
+<p>&ldquo;What do you want end up doing?&rdquo;</p>
+
+
+<p>&ldquo;I have no idea but i guess it has got to be something with music.&rdquo;</p>
+
+
+<p>I really don&rsquo;t know why I said that. I have given up the idea of a career in music long time ago. Yes, it was my child dream. For a long time. But along the way I somehow gave it up and turned the hours I was spending on the computer making music into hours spending on programming. Both have something in common - the feel that I am playing and not working. Both have the power to completely absorb me and make me forget about time.</p>
+
+
+<p>Then he asked me one thing that made me think: &ldquo;But what is it going to give to others? What is it that you have, that you want to give to others? You need to know why you are doing what you are doing. And your drive must always be to give value to people. It is the most important and rewarding thing.&rdquo;</p>
+
+
+<p>I guess he is right. We do our best work when we do it because we want to make someone feel good. Giving gifts is rewarding but we tend to give them rarely because we are tought to be greedy.</p>
+
+
+<p>Today I spent all day thinking about how to find a way to give something valuable to people. And i realized that it doesn&rsquo;t have to be some multimillion-dolar goverment-funded organisation type of service. No. It can actually start on a very basic, day-to-day interaction. You start by listening to people. Really listening and giving them your full attention. And no, not the type of listening that we usually do. You know, when we kind of listen but internally we have this monologue going on and judging what they are saying to us. I mean real, unconditional listening. Just accepting them as they are and see things from their point of view. You don&rsquo;t have to agree or disagree with them. You just accept them.</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2010/03/13/dear-diary-">
+          Dear Diary &#8230;
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>Reading <a href="http://www.amazon.com/Linchpin-Are-Indispensable-Seth-Godin/dp/1591843162">Linchpin</a> and <a href="http://www.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591842808/">Start With Why</a> at the moment (yes, I always read more than one book in parallel). They make me asking myself why am I not producing more of what I believe in. The truth is, I am not sure how to do it. And I am afraid to fail. I need to fight with this fear everyday, telling myself that it is GOOD to fail. Because when you fail, you are one failure closer to your goal.</p>
+
+
+<p>Things are certainly moving in the right direction. It is going slower than I would like, though. Maybe doing it all alone is not such a good decision. I feel (well, actually I know) I need somebody to bounce ideas off. Yes, I can do it with friends, but that is not exactly the same thing. To have somebody that is directly involved in this would help.</p>
+
+
+<p>I would definitely feel more confident in jumping into it full time if there was another person next to me doing the same. I am afraid that if I jump into it alone I might fail quite soon. That I would be like a headless chicken doing things all wrong. So it stays as an evening project for now.</p>
+
+
+<p>Another downside of doing it solo is that I make all decisions myself and then, due to outside distractions, I don&rsquo;t stay true to them. It is so easy to come up with reasons why I did not deliver what I said I would.</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2010/03/02/weekends-are-for-cooking">
+          Weekends Are for Cooking
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>I moved to Scotland in September 2009. I am slowly settling down (meaning my apartment is getting filled up with stuff that will just get in the way when i am moving again) but i miss good food. Let&rsquo;s face it - Scotts do not eat well. I don&rsquo;t like haggis or fish &lsquo;n&rsquo; chips. And i cannot eat steak every day. I was using microwave and buying ready made food from Tesco at the beginning (to save time mainly) but this is not a healthy diet and you see the results on your body pretty quick. Gym alone won&rsquo;t help.</p>
+
+
+<p>I love italian food. I can make some (<a href="http://ricette.giallozafferano.it/Impepata-di-cozze.html">impepata di cozze</a> is my speciality) but my skills are limited. Very.</p>
+
+
+<p>After watching the movie <a href="http://www.imdb.com/title/tt1135503/">Julie And Julia</a> I got hooked up about cooking. And i realized that I could &ldquo;kill two birds with one stone&rdquo;. I could buy a recipe book about italian food and start cooking at home from scratch.&nbsp;</p>
+
+
+<p>And so I did. I fired up Amazon and ordered <a href="http://www.amazon.co.uk/Made-Italy-Stories-Giorgio-Locatelli/dp/1841157023/">Made In Italy</a>. The book just arrived today and after a fast first glance I think I made a very nice purchase. The book looks fabulous! Now my aim is to cook something from it every weekend. I just need to find some quality grocery stores around here to buy the ingredients from. I am afraid that Tesco alone won&rsquo;t cut it.</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2010/03/01/how-to-gain-more-time-part-1-">
+          How to Gain More Time (Part 1)
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>You gain time by being efficient. The problem is, I am anything but efficient. I need to change.</p>
+
+
+<p>I love weekends. Who doesn&rsquo;t? The opportunity to sleep in late, have breakfast in bed, walking all day around in pajamas. Hey, the only &ldquo;sacrifice&rdquo; you do is you brush your teeth, wash your face and put some moisturizer on. The luxury of living alone ;). But the weekends end so quickly. Before you know it mr. Monday is here and wants you out of bed before 8 am. Bummer.</p>
+
+
+<p>The problem is, I never seem to have enough time. Time to spend on my startup. It is difficult during the week because of my 9-5 job but it is no different during weekends because i sleep until 12. What a waste of time!</p>
+
+
+<p>I figured out that if i go to the gym and do some workout immediately after work (and just one hour is enough to recharge), I come home less mentally tired and can work again. This time on MY project. But the weekends are still inefficient. The later I wake up, the less i do.</p>
+
+
+<p>I set a new rule. Every day I wake up at 7 am. No later. And no matter if it is Monday, Sunday, Saturday or Wednesday. Every day at 7 am i am OUT OF BED. And you know what? It is not so difficult to wake up early on the weekends, after all. I actually like it. I do more in those hours until 12 pm than during all the time put together afterwards.</p>
+
+
+<p>My aim is to start to wake up at 5 am. But just the thought of it scares me. Yes, I know, it is the <a href="http://sethgodin.typepad.com/seths_blog/2010/01/quieting-the-lizard-brain.html">lizard brain</a> that is complaining.&nbsp;</p>
+
+
+<p>Next on the how-to-gain-time list is to reduce distractions and procrastination.</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2010/02/24/ditching-subversion">
+          Ditching Subversion
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>Version control systems are important. No argue about that. At places where i used to work (and am currently working) i had the pleasure to meet three systems: cvs, perforce and subversion. All three have one important thing in common - they all suck. Well, some suck less than others (like subversion).</p>
+
+<p>For my pet projects i decided to try these new kids on the block (read distributed version controls). I narrowed down to two: <a href="http://git-scm.com/">git</a> and <a href="http://mercurial.selenic.com/">mercurial</a>. I went for mercurial. Why? Well, first because it is written in Python and i have a thing for Python. I just love it. Second because <a href="http://bitbucket.org/">bitbucket</a> looks just nicer and cooler than <a href="https://github.com/">github</a>. And third &#8230; well, I think <a href="http://hginit.com/">this guide by Joel Spolsky</a> explains it much much better than i could do. Enjoy and be persuaded ;)</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2010/01/28/a-reminder-to-myself">
+          A Reminder to Myself
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>I like reading material on startups. It keeps me in a dreaming state where everything is possible and others successes are somehow mine as well.</p>
+
+
+<p>So i am spending a lot of time on mixergy.com, and i watch one interview a day on average. Which is great - lot&rsquo;s of great insight and life stories in those interviews. The problem is that i keep spending my time in a passive state: watching, reading, thinking.</p>
+
+
+<p>I read hacker news almost exclusively and i started to gather books on startups and entrepreneurs and i am set to &ldquo;make a difference&rdquo;.</p>
+
+
+<p>In between my dreaming sessions i try to do some real work for my startup - mostly the fun ones: finding a right name and domain,still deciding what features the app should have, planning how my customer service is not going to suck once my app is big, how my arrogance is not going to grow and how am i going to enjoy my financial freedom once i make it.</p>
+
+
+<p>What i really need is motivation and a kick in the butt. I get set back quite easily and is all done by myself alone. But i also get motivated easily, it just doesn&rsquo;t last long. How to change that? This is not getting me anywhere and to be honest, i haven&rsquo;t really started producing anything yet.</p>
+
+
+<p>C&rsquo;mon! it is time to start kicking!</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2009/12/10/wherever-i-go-there-i-am">
+          Wherever I Go There I Am
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>While pondering about what to write next i realized that perhaps a little bit of background could be helpful. Perhaps helpful for me to see my patterns of behavior and thinking.</p>
+
+
+<p>Couple of years ago when i approached my thirties i realized that maybe my life situation is not the way i was thinking it would be when i was eighteen. I also noticed that everything i dreamed about somehow disappeared or became less important. My life was automatic. I switched off Me and turned on the autopilot that was driving me from day to day. I wasn&rsquo;t excited about anything anymore. I was bored at work, i was bored with my friends and family and i did not see any way out.</p>
+
+
+<p>Somehow i thought the reason was the environment I was in. I was a victim of an environment where i could not express myself freely, was I telling myself. There were too few possibilities, there were too few opportunities, there were too few good jobs, there were too few good men, there were too few good parties &#8230; so many too fews! I was watching life passing me by and wished so much to live! Oh, but little did i know that few years ahead, in a completely different place, different country, i would still feel the same. See, no matter where i go i am always taking myself along. There I am, stuck again with my thoughts.</p>
+
+
+<p>I moved to Denmark and stayed there for a little more than 2 years. At the beginning it was exciting. Meeting new people and discovering the new culture was keeping me busy for a while. But soon same old patterns and thoughts prevailed and I was stuck again. Stuck in an everyday life that i did not like. I wished to be somewhere else again. Somewhere where people were less boring, less closed and less diffident to foreigners, somewhere &#8230;. somewhere away from myself! How can i not see it that all the time the problems are inside my head and not around me?</p>
+
+
+<p>I want to break from the circle this time. I want to take the responsibility of my life and turn it around the way i WANT it to be.</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2009/12/06/day-one-the-day-it-all-began">
+          Day One - the Day It All Began
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>The idea of starting something of my own, my own web based startup, and growing along the way has been burning inside me for some time now. I think it&#8217;s been something like two years that i am thinking about it but not much has actually been done yet. Up until today. Well, not that today i am going to do something extraordinary. It is just that today i decided to log the progress i am making (hopefully on a weekly, if not daily, basis) to carry this hidden desire of mine from a simple fantasy to actual execution.</p>
+
+
+<p>I have no experience in business, i have no experience in marketing, i have no experience in raising money, I have no experience &#8230; well, all i know is how to program and i am fairly good at design. But i plan to learn everything it takes to at least try and make my idea real. After, if it fails, at least i will learn something from it and my next idea is going to have more chances to succeed. Because, in all honesty, i am a little bit tired to work for others.</p>
+
+
+<p>I promised myself that i will not let myself panic and back out when things will get though (and i suspect they will get tough). Because heroes never panic. I think it is about time i start to become one :)</p>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title">
+        <a href="/2009/05/06/discovering-twitter">
+          Discovering Twitter
+        </a>
+      </h1>
+    
+    
+  </header>
+
+
+  <div class="entry-content"><p>I just finished reading a little book by Tim O&#8217;Reilly and Sarah Milstei, <a href="http://oreilly.com/catalog/9780596802813/">The Twitter Book</a>. It is aimed at Twitter newbies (such as myself) and it does a nice job explaining the power of Twitter and all its various usages for personal and business needs. It didn’t took me long to finish it as well, as it is written in the spirit of Twitter - short and to the point. It takes you from a Twitter ignorant to a pro in no time ;)</p>
+
+<p>But why would one want to know about Twitter anyway? Hmmm, tough one. To be honest, i didn’t see much value in Twitter either, when i first created an account. I actually didn’t use it much at all - I wasn’t sure why i needed yet another communication channel to tell the world about what I’m doing, thinking, eating. I have a blog, like everyone else, right? And I’m not posting much on it. I have an account on Facebook like everyone else, right? But i am not using it much apart from playing Texas Hold’em occasionally. So what is different with Twitter that would make me tweet regularly each week, or day, or even more times per day? And who would care about it anyway?</p>
+
+<p>First, the tweets are short messages that must obey the 140 character limit. So you don’t have to engage more than a minute (unlike when you are posting on a blog) to get your thought across. And when you start following smart and witty people, it is actually very amusing reading their tweets. It is like peeking into their minds. And that gives you motivation to tweet back. And in a matter of no time it becomes great fun!</p>
+
+<p>I admit, i am a Twitter newbie but i am starting to be really hooked. And not just thanks to the book ;)</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/3/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/">Newer &rarr;</a>
+    
+  </div>
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo" class="contentinfo"><p>
+  Copyright &copy; 2013 - Tanja Pislar -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'heroesneverpanic';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

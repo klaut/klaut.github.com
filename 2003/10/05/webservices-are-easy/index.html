@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Webservices are easy - Heroes Never Panic</title>
+  <meta name="author" content="Tanja Pislar">
+
+  
+  <meta name="description" content="Just out of curiosity i tried the webserviceConnector component. I really wanted to see if it really is that simple to set up and use (as everybody &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://klaut.github.com/2003/10/05/webservices-are-easy">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Heroes Never Panic" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-514655-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><section id="logo">
+  <a href="/">heroes never panic</a>
+</section>
+</header>
+  <div id="main">
+    
+    <aside class="sidebar">
+      
+        <section>
+  <header>
+    <h1>Hi! I'm Tanja Pislar</h1>
+  </header>
+  <p>I work with code that does cool stuff on the web.</p>
+  <p>I am freelancing from Edinburgh, Scotland.</p>
+  <p>You can <a href="/hire-me">hire me</a> to help you be more awesome.</p>
+</section>
+
+<section>
+  <ul class="main-navigation">
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/illustrations">Illustrations</a></li>
+  <!--li><a href="/blog/archives">Archives</a></li -->
+</ul>
+
+</section>
+
+<section id="online-stalking">
+  <a title="klaut on Github" href="https://github.com/klaut">
+    <i class="icon-github icon-large"></i>
+  </a>
+  <a title="tanjapislar on Twitter" href="http://twitter.com/tanjapislar">
+    <i class="icon-twitter icon-large"></i>
+  </a>
+  <a title="tanja on ADN" href="https://alpha.app.net/tanja">
+    <i class="icon-adn icon-large"></i>
+  </a>
+  <a  href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">
+    <i class="icon-rss icon-large"></i>
+  </a>
+  <a  href="mailto:tanja@heroesneverpanic.com" title="email me">
+    <i class="icon-envelope-alt icon-large"></i>
+  </a>
+</section>
+
+      
+    </aside>
+    
+    
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">
+        Webservices Are Easy
+      </h1>
+    
+    
+  </header>
+
+
+<div class="entry-content"><p>Just out of curiosity i tried the webserviceConnector component. I really wanted to see if it really is that simple to set up and use (as everybody is saying)&#8230;
+And, honestly, it took me 15 minutes to make it (5 minutes were spent on deciding which webservice i&#8217;m going to use).
+Knowing that <a href="http://www.webservicex.net/ws/default.aspx">WebserviceX.Net</a> have recently put a crossdomain policy file up on their server, i tried my luck with their leingth/distance converter:
+http://www.webservicex.net/length.asmx?WSDL</p>
+
+<p><a href="http://www.klaustrofobik.org/blog/stuff/webservice_LengthConverter.html">Preview the service here</a></p>
+
+<p>All you have to do is to open web service window (Window/developer Panels/Web Services), click on Define web service icon (that thing that looks like Earth) and type the url of the service in the pop up window. After a while (when flash connects to the service and recieves back the response) all the methods aviable from this service will be listed in that window. Now its&#8217; only a matter of selecting which one you want to use, right click on it and select &#8220;Add method call&#8221; and flash will automatically place an instance of WebserviceConnector component on the stage.
+I also added a couple of comboboxes (for the unit names), a textInput , a textArea (which will display a result from the conversion) and a button on the stage.
+The trickiest part now is to bind the webserviceConnector to other components on stage. Ok, it sounds tricky, but it really is not ;)
+Select the webserviceConnector and click on the bindings tab in the Component Inspector panel and add your bindings (click on the +)&#8230; I added the simplest one first, the result that the service will send me. I selected it (the last one, called results:Number) and then set the &#8220;bound to&#8221; to point to my textArea component (more preciselly, its text property). I did the same with other parameters:
+params.LengthValue - bounded to textInput field:text
+params.fromLengthUnit - bounded to fromLengthUnit_combobox:value
+params.toLengthUnit - bounded to toLengthUnit_combobox:value</p>
+
+<p>now, what&#8217;s left is just few lines of code: we want to trigger the service when we click on the button, so we have to write an event handler for that:
+<code>
+goConvert = function (ev)
+{
+//ChangeLength_wbs is the instance name of the webservice component</p>
+
+<pre><code>ChangeLength_wbs.trigger();
+</code></pre>
+
+<p>};</p>
+
+<p>convertButton_pb.addEventListener(&#8220;click&#8221;, goConvert);</p>
+
+<p></code></p>
+
+<p>Attached is a zipped fla for taking a closer look :)</p>
+
+<p><a href="http://www.klaustrofobik.org/blog/stuff/webservice_LengthConverter.zip">Download zipped file</a></p>
+
+<p>UPDATE:
+Just noticed that <a href="http://www.mediasparkles.com/2003_10_05_archives.html#106537575512611530">Vera Fleischer</a> has written a great in-depth post on how to use webserviceConnector :)</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">posted by <span class="fn">Tanja Pislar</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2003-10-05T00:00:00+01:00" pubdate data-updated="true">Oct 5<span>th</span>, 2003</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2003/10/03/flash-remoting-the-definitive-guide-on-safari" title="Previous Post: Flash Remoting: The Definitive Guide on Safari">&laquo; Flash Remoting: The Definitive Guide on Safari</a>
+      
+      
+        <a class="basic-alignment right" href="/2003/10/09/new-ui-components-for-flashmx2004" title="Next Post: New UI Components for FlashMX2004">New UI Components for FlashMX2004 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo" class="contentinfo"><p>
+  Copyright &copy; 2013 - Tanja Pislar -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'heroesneverpanic';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

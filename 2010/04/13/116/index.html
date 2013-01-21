@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Learning Haskell - Types And Functions - Heroes Never Panic</title>
+  <meta name="author" content="Tanja Pislar">
+
+  
+  <meta name="description" content="Haskell is a strongly typed static language. This means that Haskell will not automatically cast one type into another. In other words, you can’t &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://klaut.github.com/2010/04/13/116">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Heroes Never Panic" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-514655-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><section id="logo">
+  <a href="/">heroes never panic</a>
+</section>
+</header>
+  <div id="main">
+    
+    <aside class="sidebar">
+      
+        <section>
+  <header>
+    <h1>Hi! I'm Tanja Pislar</h1>
+  </header>
+  <p>I work with code that does cool stuff on the web.</p>
+  <p>I am freelancing from Edinburgh, Scotland.</p>
+  <p>You can <a href="/hire-me">hire me</a> to help you be more awesome.</p>
+</section>
+
+<section>
+  <ul class="main-navigation">
+  <li><a href="/projects">Projects</a></li>
+  <li><a href="/illustrations">Illustrations</a></li>
+  <!--li><a href="/blog/archives">Archives</a></li -->
+</ul>
+
+</section>
+
+<section id="online-stalking">
+  <a title="klaut on Github" href="https://github.com/klaut">
+    <i class="icon-github icon-large"></i>
+  </a>
+  <a title="tanjapislar on Twitter" href="http://twitter.com/tanjapislar">
+    <i class="icon-twitter icon-large"></i>
+  </a>
+  <a title="tanja on ADN" href="https://alpha.app.net/tanja">
+    <i class="icon-adn icon-large"></i>
+  </a>
+  <a  href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">
+    <i class="icon-rss icon-large"></i>
+  </a>
+  <a  href="mailto:tanja@heroesneverpanic.com" title="email me">
+    <i class="icon-envelope-alt icon-large"></i>
+  </a>
+</section>
+
+      
+    </aside>
+    
+    
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">
+        Learning Haskell - Types and Functions
+      </h1>
+    
+    
+  </header>
+
+
+<div class="entry-content"><p>Haskell is a strongly typed static language.</p>
+
+<p>This means that Haskell will not automatically cast one type into another. In other words, you can’t expect it to treat an integer as a float. If you define a function that takes a float parameter and you feed it an integer afterwards, Haskell will complain. Having static types means that the compiler knows the type of every value and expression at compile time. Before anything is executed. So if we try and use types in an expression that don’t match (say, trying to add a string “3” to an integer 5), Haskell will complain. But there is a bonus: Haskell has type inference. Meaning, Haskell will deduce the type of a value or expression for us everywhere it can. This makes type declaration optional.</p>
+
+<p>Continuing my journey into the abyss of Haskell, it occured to me that we all already learned functional programming. Do you still remember the basic Algebra classes in your elementary school? Well, that is just it - functional programming. And Haskell’s syntax is just like algebra. With some extra sugar and batteries included (yes, i took that last part from Python &#8230; i just couldn’t resist).</p>
+
+<p>At the algebra classes we learned that functions return values. Later we were spoiled by imperative programming languages and the returning values became an option explicitly stated with return keyword. Not in Haskell. All functions return values, because they are expressions. Always. And we don’t need the return anymore because we get it implicitly. Oh, and did I tell you that there are no objects in Haskell? Just functions!</p>
+
+<p>To define a function that returns a sum of two numbers I could write something like the following:
+<code>
+add a b = a + b
+</code>
+Here I tell Haskell that add takes two parameters and it should return a sum of the two. I didn’t have to declare the types of the parameters, nor the returned value. And i could have, if I weren’t so lazy! But I am safe anyway. If i try to pass two strings to the function, Haskell will yell at me. That’s inference at work.</p>
+
+<p>Let’s say that i want to be a good citizen and declare the types as well, but being new to Haskell i just am not really sure what they could be. Well, I can always check it out after I write my function down with the help of the interpreter.
+<code>
+ghci> :t add
+ghci> add :: (Num a) => a -> a -> a
+</code>
+Haskell is telling us that for him, the add function can take any two parameters that are of the same type and it will return a value of the same type back, but the type must be of a Number typeclass. Ok, I had some hard time to decipher it as well, so let me rephrase this a little bit. The (Num a) part is telling us that for all the “a”s that follow they must be of a numeric type. The part “a->a->a” is simplified like this: the last a is the return value, while the first two are function arguments. So, armed with this insight i can go back and modify my function so that it has a type declaration as well.
+<code>
+add :: (Num a) => a -> a -> a
+add a b = a + b
+</code></p>
+
+<p>Yes, it is weird at first. But quite soon it starts to make sense, trust me. And wait till next week when i show you patterns and guards!</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">posted by <span class="fn">Tanja Pislar</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-04-13T00:00:00+01:00" pubdate data-updated="true">Apr 13<span>th</span>, 2010</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2010/03/30/learning-haskell-first-date" title="Previous Post: Learning Haskell - First Date">&laquo; Learning Haskell - First Date</a>
+      
+      
+        <a class="basic-alignment right" href="/2010/07/08/something-to-remember" title="Next Post: Something to remember">Something to remember &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+    </div>
+  </div>
+  <footer role="contentinfo" class="contentinfo"><p>
+  Copyright &copy; 2013 - Tanja Pislar -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'heroesneverpanic';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

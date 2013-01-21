@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Heroes Never Panic]]></title>
+  <link href="http://klaut.github.com/atom.xml" rel="self"/>
+  <link href="http://klaut.github.com/"/>
+  <updated>2013-01-21T13:23:02+00:00</updated>
+  <id>http://klaut.github.com/</id>
+  <author>
+    <name><![CDATA[{"name"=>&#8220;Tanja Pislar&#8221;, &#8220;email&#8221;=>&#8221;tanja.pislar@gmail.com&#8221;, &#8220;github&#8221;=>&#8221;klaut&#8221;, &#8220;twitter&#8221;=>&#8221;tanjapislar&#8221;, &#8220;appdotnet&#8221;=>&#8221;tanja&#8221;, &#8220;tent_is&#8221;=>&#8221;tanja.tent.is&#8221;}]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[New Year Resolutions]]></title>
+    <link href="http://klaut.github.com/2011/12/25/new-year-resolutions"/>
+    <updated>2011-12-25T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2011/12/25/new-year-resolutions</id>
+    <content type="html"><![CDATA[<p>Only two resolutions I have this year:</p>
+
+
+<ul>
+<li>Wake up early.</li>
+<li>Wake up happy.</li>
+</ul>
+
+
+<p>There is no point in starting a day late or depressed.</p>
+
+
+<p>Happy 2012!</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Starting with Google AdWords]]></title>
+    <link href="http://klaut.github.com/2011/06/11/starting-with-google-adwords"/>
+    <updated>2011-06-11T00:00:00+01:00</updated>
+    <id>http://klaut.github.com/2011/06/11/starting-with-google-adwords</id>
+    <content type="html"><![CDATA[<p>Few weeks ago I decided to try my first adwords campaign for <a href="http://www.thebookingbee.com">The Booking Bee beta sign up</a>. I wanted to try this MVP thing everyone speaks about and really see if I&rsquo;ll get some interest for the product before I really throw myself into it and build it.
+It was the first time I had to deal with AdWords. Knowing nothing about it I thought it would be enough doing my usual: scan the software, try out a few commands and usually getting the hang of it (or a general idea how to operate it) quite soon. Ad Words is a different beast, though. It is quite complex and it has a whole lot of terms that one needs to learn. It is not an afternoon job &ndash; it is more like a week (or two) project by itself. Not to mention the whole SEO thing (if you really want to do a good job).
+Here was my plan of action:</p>
+
+
+
+
+<ol>
+<li>get a nice template for the landing page from <a href="http://themeforest.net/" title="Themeforest">Themeforest</a></li>
+<li>modify it so that it suits Booking Bee better</li>
+<li>create adwords campaign</li>
+<li>profit!</li>
+</ol>
+
+
+
+
+<p>The first two bullet points were no brainer for me. Third and fourth are turning out to be a bit harder than originaly planned.</p>
+
+
+
+
+<p>I got a <a href="http://themeforest.net/item/the-johnny-landing-page/166617">really nice template</a> and tweaking it was not really a problem. Even completely changing the icons for features list was easy. Writing the copy, on the other hand, turned out to be harder. Specialy if you want to say something meaningful and would like to avoid the usual selling buzzwords. I am not very well versed in that, unfortunatelly, thus i spent a great deal just staring at the screen with a blank head.</p>
+
+
+
+
+<p>On to setting up AdWords.</p>
+
+
+
+
+<p>I found a <a href="http://blog.octoclick.com">great blog by Octoclick</a> helping me to understand what all the major options meant. Still the biggest problem I had was to find the right keywords.</p>
+
+
+
+
+<p>What do people search for when they want to find a software helping them manage bookings and expenses for their vacation rentals?
+No idea.
+I set up some basic words and phrases that i thought would bring users to my site and make then sign up:
+vacation lettings, landlord, booking calendar, vacation expenses &hellip;
+How wrong I was!
+Yes, majority of them did bring traffic to my site, but they weren&rsquo;t relevant enough! All they did was eating up money from my day limit so the add stopped showing after few clicks! And I only realized that three days into the campaing. As soon as I removed them and added more relevant set to the campaing i was paying much less for a bigger click through rate (but still very low). No sign ups, yet, though.</p>
+
+
+
+
+<p>Another mistake was to set only one version of the text ad. No! You want to have different variations of it so that different sets of keywords trigger the display of the most appropriate add. Again, it took me 6 days to finaly correct this.</p>
+
+
+
+
+<p>Third mistake: The title of the add.
+Initially it was the name of the web app &ndash; The Booking Bee. This meant nothing to anybody. When I changed it to something more relevant to the search (Vacation Rental Software) my keywords started to have much bigger quality score, meaning that i could also drop the bid price. Too bad it already cost me more than a half of my budget for this experiment and one week was wasted.</p>
+
+
+
+
+<p><strong>Sumary so far:</strong></p>
+
+
+
+
+<ol>
+<li>initial budget: £35</li>
+<li>impressions: 20,592</li>
+<li>clicks: 43</li>
+<li>CTR: 0.21%</li>
+<li>money spent: £24.31</li>
+<li>time running: 1 week</li>
+<li>beta sign ups: 2</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The most difficult thing is ...]]></title>
+    <link href="http://klaut.github.com/2011/05/21/the-most-difficult-thing-is-"/>
+    <updated>2011-05-21T00:00:00+01:00</updated>
+    <id>http://klaut.github.com/2011/05/21/the-most-difficult-thing-is-</id>
+    <content type="html"><![CDATA[<p>Why is inertia so difficult to overcome?</p>
+
+
+<p>Everything would be so much easier:</p>
+
+
+<ul>
+<li>all these app ideas that are popping into my head? Done.&nbsp;</li>
+<li>the ebook i am trying to write? Phew, piece of cake - done.</li>
+<li>broken heart? No worries, recovered in a lightning speed.</li>
+<li>all the illustrations that started back to from in my head? Done.</li>
+<li>the messy flat? Ha, all shiny now!</li>
+</ul>
+
+
+<p>Instead? Nada. Zip. I&#8217;ve done nothing.<br /> Oh, i have to-do lists long to the moon and back, but actual stuff done? Err .. ok, I&#8217;ve started some &#8230; but not finished anything yet. And the most difficult part? The paradox? The&nbsp;insurmountable mountain? One fights inertia with &#8220;just start doing it&#8221;. Yeah. To actually go somewhere, you have to start walking.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Really, Don't Panic]]></title>
+    <link href="http://klaut.github.com/2011/04/18/really-don-t-panic"/>
+    <updated>2011-04-18T00:00:00+01:00</updated>
+    <id>http://klaut.github.com/2011/04/18/really-don-t-panic</id>
+    <content type="html"><![CDATA[<p>Yet again I managed to neglect my duties towards Heroes Never Panic. I always seem to fall into same patterns of procrastination. I am hopeless :)</p>
+
+
+<p>I finally let go of a relationship that, even though the person meant everything for me for the last 4 years, it was not meant to be and I am starting to feel happier and lighter again. The hardest part is to prevent yourself from thinking about it. And force yourself to get busy.</p>
+
+
+<p>While I was fighting against myself, some projects have piled up on my desk so I need to sort myself out and start working on them seriously.</p>
+
+
+<p><strong><span style="font-size: medium;">The Booking Bee</span></strong></p>
+
+
+<p>Oh, my dear little bee. I was so excited when i started working on this project and look at it now! It has been months since I touched it!&nbsp;Yesterday I rolled up the sleeves and started fixing bugs and polishing code. And before you know it, it was 11pm!! Where did Sunday go?&nbsp;</p>
+
+
+<p>Still a lot of features (critical ones) missing before I can open up the beta for the public, but I was surprised to see that it was not THAT bad after all. And I am all hooked up again!</p>
+
+
+<p><strong><span style="font-size: medium;">Tag Penny</span></strong></p>
+
+
+<p>Well, as you could observe, I wasn&#8217;t able to finish it last November. But i did finish the mockups, bought the domain and set up a blog (that nobody updates). If i really get myself to start working on it, I think it has potential. Maybe even more than Booking Bee.</p>
+
+
+<p><strong><span style="font-size: medium;">E-Book</span></strong></p>
+
+
+<p>Got this idea that maybe I fancy to try writing. It was always a thing at the back of my head but never really thought I&#8217;d do it. Well, up until now. I know few people that are starting a business (or have a business) and feel lost when they need to hire or deal with a developer. I guess I could do worse than writing a little ebook guide about it. What you need to know, how to manage the project, how to communicate with developers, traps that you can fall into&#8230; I set up a survey over at Wufoo.com and got some replies back (not many, but enough that I could see the common pattern). Trying to figure out a structure of the guide now :)</p>
+
+
+<p>Hey, it is still up and I am always glad to get more input:&nbsp;<span style="font-family: arial, sans-serif; border-collapse: collapse;"><a href="http://bit.ly/ffBJuN" target="_blank" style="color: #196b7b;">http://bit.ly/ffBJuN</a></span></p>
+
+
+<p><strong><span style="font-family: arial, sans-serif; border-collapse: collapse; font-size: medium;">Mongolia</span></strong></p>
+
+
+<p><span style="font-family: arial, sans-serif; border-collapse: collapse;">Don&#8217;t ask me why or how, but this summer I go to Mongolia. Somehow friends persuaded me to just dive in and join them on this adventure. I know it is something I desperately need, something completely different and unknown.<br />It&#8217;s going to be just for 12 days but I know I&#8217;ll come back revitalised. I already have an idea for a web app! See, we are now group mailing among us about all the stuff that needs to be done and organized before the trip. I looked online and yes, there are few group trip management apps out there, but none of them is particularly suited to what we need. So i thought that it could be a nice opportunity to build something quick. And as I was trying to find something to build to learn node.js, this could be the right thing to do.</span></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Time to Build And Launch an App]]></title>
+    <link href="http://klaut.github.com/2010/11/09/time-to-build-and-launch-an-app"/>
+    <updated>2010-11-09T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2010/11/09/time-to-build-and-launch-an-app</id>
+    <content type="html"><![CDATA[<p>It is November. This means long nights, rain and wind (at least in Scotland). But it also means that the <a href="http://www.facebook.com/home.php?sk=group_141079939271952" title="HN November Launch Pad" target="_self">HN November Launch Pad</a> has started.</p>
+
+
+<p>I decided to join in with a little idea that popped into my head couple of weeks ago - just around the time when i resigned from my current job.</p>
+
+
+<p>The problem: I need to be as frugal as possible and have a simple tool to track my expenses.</p>
+
+
+<p>The solution: <a href="http://tagpenny.posterous.com" title="Tag Penny" target="_self">Tag Penny</a>.</p>
+
+
+<p>The name is not finalized yet. Well, to be honest, it is still all mostly at the idea stage. But i got two domains that I just bought and now I have this dilema: which name is better? Expenseplan.com? Tagpenny.com? None? Anyway, I will just continue with the development and maybe the perfect name will crystalize as I go along.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Essential Tools For a Web Developer on a Mac]]></title>
+    <link href="http://klaut.github.com/2010/08/21/essential-tools-for-a-web-developer-on-a-mac"/>
+    <updated>2010-08-21T00:00:00+01:00</updated>
+    <id>http://klaut.github.com/2010/08/21/essential-tools-for-a-web-developer-on-a-mac</id>
+    <content type="html"><![CDATA[<p>Next time I get a new mac (or reinstall a fresh system) the following is a must have:</p>
+
+<ul>
+<li><a href="http://macromates.com/">TextMate</a></li>
+<li><a href="http://visor.binaryage.com/">Visor</a></li>
+<li><a href="http://www.balsamiq.com/products/mockups">Balsamiq Mockups</a></li>
+<li><a href="http://rvm.beginrescueend.com/">rvm</a></li>
+<li>Git</li>
+<li><a href="http://gitx.frim.nl/">GitX</a></li>
+<li><a href="http://www.blacktree.com/">Qucksilver</a></li>
+<li><a href="http://www.sequelpro.com/">SequelPro</a></li>
+<li><a href="http://mongohub.todayclose.com/">MongoHub</a></li>
+<li>Chrome Mac developer branch</li>
+<li><a href="http://github.com/mxcl/homebrew">Homebrew</a></li>
+<li><a href="http://pypi.python.org/pypi/virtualenv">Virtualenv</a></li>
+</ul>
+
+
+<p>I am still looking for a better replacement to pgAdmin.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Something to remember]]></title>
+    <link href="http://klaut.github.com/2010/07/08/something-to-remember"/>
+    <updated>2010-07-08T00:00:00+01:00</updated>
+    <id>http://klaut.github.com/2010/07/08/something-to-remember</id>
+    <content type="html"><![CDATA[<blockquote class="posterous_medium_quote">
+<p>For attractive lips, speak words of kindness.<br />For lovely eyes, seek out the good in people. <br />For a slim figure, share your food with the hungry. <br />For beautiful hair, let a child run his/her fingers through it once a day. <br />For poise, walk with the knowledge that you never walk alone. </p>
+<p>People, even more than things, have to be restored, renewed, revived, reclaimed, and redeemed; never throw out anyone. Remember, if you ever need a helping hand, you will find one at the end of each of your arms. As you grow older, you will discover that you have two hands; one for helping yourself, and the other for helping others.</p>
+</blockquote>
+
+
+<p>Audrey Hepburn</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Haskell - Types And Functions]]></title>
+    <link href="http://klaut.github.com/2010/04/13/116"/>
+    <updated>2010-04-13T00:00:00+01:00</updated>
+    <id>http://klaut.github.com/2010/04/13/116</id>
+    <content type="html"><![CDATA[<p>Haskell is a strongly typed static language.</p>
+
+<p>This means that Haskell will not automatically cast one type into another. In other words, you can’t expect it to treat an integer as a float. If you define a function that takes a float parameter and you feed it an integer afterwards, Haskell will complain. Having static types means that the compiler knows the type of every value and expression at compile time. Before anything is executed. So if we try and use types in an expression that don’t match (say, trying to add a string “3” to an integer 5), Haskell will complain. But there is a bonus: Haskell has type inference. Meaning, Haskell will deduce the type of a value or expression for us everywhere it can. This makes type declaration optional.</p>
+
+<p>Continuing my journey into the abyss of Haskell, it occured to me that we all already learned functional programming. Do you still remember the basic Algebra classes in your elementary school? Well, that is just it - functional programming. And Haskell’s syntax is just like algebra. With some extra sugar and batteries included (yes, i took that last part from Python &#8230; i just couldn’t resist).</p>
+
+<p>At the algebra classes we learned that functions return values. Later we were spoiled by imperative programming languages and the returning values became an option explicitly stated with return keyword. Not in Haskell. All functions return values, because they are expressions. Always. And we don’t need the return anymore because we get it implicitly. Oh, and did I tell you that there are no objects in Haskell? Just functions!</p>
+
+<p>To define a function that returns a sum of two numbers I could write something like the following:
+<code>
+add a b = a + b
+</code>
+Here I tell Haskell that add takes two parameters and it should return a sum of the two. I didn’t have to declare the types of the parameters, nor the returned value. And i could have, if I weren’t so lazy! But I am safe anyway. If i try to pass two strings to the function, Haskell will yell at me. That’s inference at work.</p>
+
+<p>Let’s say that i want to be a good citizen and declare the types as well, but being new to Haskell i just am not really sure what they could be. Well, I can always check it out after I write my function down with the help of the interpreter.
+<code>
+ghci> :t add
+ghci> add :: (Num a) => a -> a -> a
+</code>
+Haskell is telling us that for him, the add function can take any two parameters that are of the same type and it will return a value of the same type back, but the type must be of a Number typeclass. Ok, I had some hard time to decipher it as well, so let me rephrase this a little bit. The (Num a) part is telling us that for all the “a”s that follow they must be of a numeric type. The part “a->a->a” is simplified like this: the last a is the return value, while the first two are function arguments. So, armed with this insight i can go back and modify my function so that it has a type declaration as well.
+<code>
+add :: (Num a) => a -> a -> a
+add a b = a + b
+</code></p>
+
+<p>Yes, it is weird at first. But quite soon it starts to make sense, trust me. And wait till next week when i show you patterns and guards!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Haskell - First Date]]></title>
+    <link href="http://klaut.github.com/2010/03/30/learning-haskell-first-date"/>
+    <updated>2010-03-30T00:00:00+01:00</updated>
+    <id>http://klaut.github.com/2010/03/30/learning-haskell-first-date</id>
+    <content type="html"><![CDATA[<p>Monday is here and so I met for the first time with Haskell.</p>
+
+<p>Installation went quickly and without any problems (installed the <a href="http://hackage.haskell.org/platform/">Haskell platform for macosx</a>). You get a compiler, a bunch of standard modules and an interactive interpreter. I like having the interpreter as a way to quickly try out stuff in Python, so the fact that Haskell has its own as well immediately gained points  with me :)</p>
+
+<p>It is much more convenient while you learn to have an immediate feedback than having to type some code to a file and compiling.</p>
+
+<p>First thing you try is the “command line calculator”. Haskell is behaving as you would expect it to behave:
+<code>ghci&gt; 2 + 4
+ghci&gt; 6</code></p>
+
+<p>All the usual suspects are here: addition, multiplication, subtraction &#8230; nothing differs from Python.
+But then quickly the similarities stop to be, well, similar.</p>
+
+<p>Haskell is a functional language and as such it does not modify state. That, translated to something meaningful to me is: variables are just symbols that hold values. Once you assign a value to a variable you can’t change it. Variables in Python and variables in Haskell are not the same. At the moment it is still difficult for me to grasp what this mean and how it can be useful. But right now I am still looking and evaluating Haskell from the imperative languages point of view. Also the fact that Haskell is known to be <em>lazy</em> is somehow odd, but then it sounds like a cool feature - the fact that it won’t bother to compute things until it is really forced to do so.</p>
+
+<p>This means that you can create lists with infinite number of elements and Haskell it is quite happy to create them for you. Fast. Well, unless you try to create them at the interactive interpreter. You will have to stop it from spitting all the numbers till the end:
+<code>ghci&gt; [1..]</code></p>
+
+<p><strong>Lists.</strong></p>
+
+<p>They can have unlimited amounts of elements. But the elements must be all of the same type. Strings as we know them are lists of chars so the following examples are all the same to Haskell:
+<code>ghci&gt; “hello”
+ghci&gt; [“h”,”e”,”l”,”l”,”o”</code>]</p>
+
+<p>If you want quickly construct a list of ranges you can do: [1..100]. This will create a list of numbers from 1 to 100. You can specify a step to the range as well: [1,3..20]. This will create the following list: [1,3,5,7,9,11,13,15,17,19].</p>
+
+<p>For concatenating strings or lists you would use: [1,2] ++ [3,4] or “hello” ++ “ “ ++ “world”. Basically the ++ function inserts the stuff on the right (which must be a list) at the end of the list on the left side. But what if i want to insert something at the beginning? I can do that:
+<code>ghci&gt; a:[b,c,d]
+ghci&gt; [a,b,c,d]</code></p>
+
+<p>The only difference: the thing you insert is a single element. Not a list.</p>
+
+<p>If you want to get the second element from a list (the indices start at 0) you would use the !! (yes, that is double exclamation mark):
+<code>ghci&gt; [1,2,3,4]!!1
+ghci&gt; 2</code></p>
+
+<p>There is a whole bunch of functions to manipulate lists and they all sound quite exotic (although I did remembered my CS semester of Prolog while trying some of them out).
+Let’s say you want the first element from the list:
+<code>ghci&gt; head [1,2,3,4]
+ghci&gt; 1</code></p>
+
+<p>What about the last?
+<code>ghci&gt; last [1,2,3,4]
+ghci&gt; 4</code></p>
+
+<p>To get everything but the first element you use tail:
+<code>ghci&gt; tail [1,2,3,4]
+ghci&gt; [2,3,4]</code></p>
+
+<p>And everything but the last element? init.
+<code>ghci&gt; init [1,2,3,4]
+ghci&gt; [1,2,3]</code></p>
+
+<p>There is a lot of very well written and comprehensible material online that i am using as a learning material. Some of the best resource that I found are:</p>
+
+<ul>
+    <li><a href="http://learnyouahaskell.com/">Learn You A Haskell For Great Good</a></li>
+    <li><a href="http://book.realworldhaskell.org/read/">Real World Haskell</a></li>
+    <li><a href="http://en.wikibooks.org/wiki/Haskell">Haskell Wikibook</a></li>
+</ul>
+
+
+<p>All in all, I enjoyed my Monday evening. Haskell does feel strange for now and I can’t possibly think of how i would go on about writing real life programs with it. But hey, it is only my first Monday :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ada Lovelace Day 2010]]></title>
+    <link href="http://klaut.github.com/2010/03/24/ada-lovelace-day-2010"/>
+    <updated>2010-03-24T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2010/03/24/ada-lovelace-day-2010</id>
+    <content type="html"><![CDATA[<p>Today is the <a href="http://findingada.com/">Ada Lovelace Day</a> - a day to celebrate women in technology and science.</p>
+
+<p>Although I am not much into dividing people into groups based on gender, race, religion, etc, it is a very noticeable fact that there simply are too few women in technology. I noticed it since I first developed an interest for computers, I continued to notice it during the university (hey, in the first year there were maybe 10 girls out of 100 students!) and it is a regular fact in every job that I had. Usually, I was one of the few female programmers, sometimes the only one.</p>
+
+<p>I would like to bring attention to one of my heroes from the BSD community: <a href="http://it.toolbox.com/blogs/bsd-guru/">Dru Lavigne</a>.</p>
+
+<p>Dru is an authority in the BSD world. She is a network and systems administrator, IT instructor and technical writer. She has written several books on BSD, the most famous one, <a href="http://www.amazon.co.uk/BSD-Hacks-100-Industrial-Tools/dp/0596006799">BSD Hacks</a> I happen to own, and has been my reference for most things BSD. I’ve read it cover to cover several times during my early years when I was learning FreeBSD.</p>
+
+<p>Dru writes regulary on her technical blog<a href="http://it.toolbox.com/blogs/bsd-guru/"> A Year in the Life of a BSD Guru</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Haskell - Before I Start]]></title>
+    <link href="http://klaut.github.com/2010/03/23/learning-haskell-before-i-start"/>
+    <updated>2010-03-23T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2010/03/23/learning-haskell-before-i-start</id>
+    <content type="html"><![CDATA[<p>Each Monday from now on, I am going to publish a small step that I made during the week into mastering <a href="http://www.haskell.org/">Haskel</a>l. This is a commitment that I make to myself and by deciding to make the progress public (although you may be the one and only reader) I am kind of forcing myself to stick to it.</p>
+
+<p>Why Haskell? Why now?</p>
+
+<p>Well, first, let me tell you that learning a new programming language is actually very exciting. It is  like when you were a kid and you were given a new toy. Remember how excited you were? You just could not wait to unwrap it and start playing.</p>
+
+<p>Having said that, Haskell has been on my radar for some time. I just never really took the time to start looking deeper into it. And I realized that if I am going to wait until I think I have more time, it is never going to happen. You have only so much time as you give it to yourself. So this excuse is not going to cut it anymore.</p>
+
+<p>Oh, and why Haskell I hear you wonder? Because I want to add a functional programming language to my arsenal. Because it is gaining in popularity but it is still underground enough to feel exotic. Because it is lazy. Because I&#8217;ve been pretty intrigued about what <a href="http://en.wikipedia.org/wiki/Monad_(functional_programming)">monad</a> is.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What do you want to end up doing?]]></title>
+    <link href="http://klaut.github.com/2010/03/20/what-do-you-want-to-end-up-doing-"/>
+    <updated>2010-03-20T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2010/03/20/what-do-you-want-to-end-up-doing-</id>
+    <content type="html"><![CDATA[<p>We had a night out with the company i am working for, yesterday. It was a goodbye night for one of the guys that quitted and is going to start his own business. He did exactly what my plans are. Starting my own thing on the side and then, when it starts to bring in some money, quit the 9-5 and focus on it entirely.</p>
+
+
+<p>I spent some time chatting with another guy who was actually the founder of the aforementioned company. The company has been acquired last year and he is not working full time here anymore, just some hours a week because he likes it. He is doing other things in his life and one of them is mentoring local &ldquo;problematic&rdquo; teenagers (all of them coming from difficult situations within their families).</p>
+
+
+<p>I have no idea how (and maybe the reason were a couple of beers we all had) but we ended up talking about the purpose of life. He asked me why I came here, what is my drive, what i want from life. I said that coming to Scotland was just a coincidence but my main purpose is being free and independent and doing stuff that fulfills me.</p>
+
+
+<p>&ldquo;What do you want end up doing?&rdquo;</p>
+
+
+<p>&ldquo;I have no idea but i guess it has got to be something with music.&rdquo;</p>
+
+
+<p>I really don&rsquo;t know why I said that. I have given up the idea of a career in music long time ago. Yes, it was my child dream. For a long time. But along the way I somehow gave it up and turned the hours I was spending on the computer making music into hours spending on programming. Both have something in common - the feel that I am playing and not working. Both have the power to completely absorb me and make me forget about time.</p>
+
+
+<p>Then he asked me one thing that made me think: &ldquo;But what is it going to give to others? What is it that you have, that you want to give to others? You need to know why you are doing what you are doing. And your drive must always be to give value to people. It is the most important and rewarding thing.&rdquo;</p>
+
+
+<p>I guess he is right. We do our best work when we do it because we want to make someone feel good. Giving gifts is rewarding but we tend to give them rarely because we are tought to be greedy.</p>
+
+
+<p>Today I spent all day thinking about how to find a way to give something valuable to people. And i realized that it doesn&rsquo;t have to be some multimillion-dolar goverment-funded organisation type of service. No. It can actually start on a very basic, day-to-day interaction. You start by listening to people. Really listening and giving them your full attention. And no, not the type of listening that we usually do. You know, when we kind of listen but internally we have this monologue going on and judging what they are saying to us. I mean real, unconditional listening. Just accepting them as they are and see things from their point of view. You don&rsquo;t have to agree or disagree with them. You just accept them.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dear Diary ...]]></title>
+    <link href="http://klaut.github.com/2010/03/13/dear-diary-"/>
+    <updated>2010-03-13T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2010/03/13/dear-diary-</id>
+    <content type="html"><![CDATA[<p>Reading <a href="http://www.amazon.com/Linchpin-Are-Indispensable-Seth-Godin/dp/1591843162">Linchpin</a> and <a href="http://www.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591842808/">Start With Why</a> at the moment (yes, I always read more than one book in parallel). They make me asking myself why am I not producing more of what I believe in. The truth is, I am not sure how to do it. And I am afraid to fail. I need to fight with this fear everyday, telling myself that it is GOOD to fail. Because when you fail, you are one failure closer to your goal.</p>
+
+
+<p>Things are certainly moving in the right direction. It is going slower than I would like, though. Maybe doing it all alone is not such a good decision. I feel (well, actually I know) I need somebody to bounce ideas off. Yes, I can do it with friends, but that is not exactly the same thing. To have somebody that is directly involved in this would help.</p>
+
+
+<p>I would definitely feel more confident in jumping into it full time if there was another person next to me doing the same. I am afraid that if I jump into it alone I might fail quite soon. That I would be like a headless chicken doing things all wrong. So it stays as an evening project for now.</p>
+
+
+<p>Another downside of doing it solo is that I make all decisions myself and then, due to outside distractions, I don&rsquo;t stay true to them. It is so easy to come up with reasons why I did not deliver what I said I would.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Weekends Are For Cooking]]></title>
+    <link href="http://klaut.github.com/2010/03/02/weekends-are-for-cooking"/>
+    <updated>2010-03-02T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2010/03/02/weekends-are-for-cooking</id>
+    <content type="html"><![CDATA[<p>I moved to Scotland in September 2009. I am slowly settling down (meaning my apartment is getting filled up with stuff that will just get in the way when i am moving again) but i miss good food. Let&rsquo;s face it - Scotts do not eat well. I don&rsquo;t like haggis or fish &lsquo;n&rsquo; chips. And i cannot eat steak every day. I was using microwave and buying ready made food from Tesco at the beginning (to save time mainly) but this is not a healthy diet and you see the results on your body pretty quick. Gym alone won&rsquo;t help.</p>
+
+
+<p>I love italian food. I can make some (<a href="http://ricette.giallozafferano.it/Impepata-di-cozze.html">impepata di cozze</a> is my speciality) but my skills are limited. Very.</p>
+
+
+<p>After watching the movie <a href="http://www.imdb.com/title/tt1135503/">Julie And Julia</a> I got hooked up about cooking. And i realized that I could &ldquo;kill two birds with one stone&rdquo;. I could buy a recipe book about italian food and start cooking at home from scratch.&nbsp;</p>
+
+
+<p>And so I did. I fired up Amazon and ordered <a href="http://www.amazon.co.uk/Made-Italy-Stories-Giorgio-Locatelli/dp/1841157023/">Made In Italy</a>. The book just arrived today and after a fast first glance I think I made a very nice purchase. The book looks fabulous! Now my aim is to cook something from it every weekend. I just need to find some quality grocery stores around here to buy the ingredients from. I am afraid that Tesco alone won&rsquo;t cut it.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Gain More Time (part 1)]]></title>
+    <link href="http://klaut.github.com/2010/03/01/how-to-gain-more-time-part-1-"/>
+    <updated>2010-03-01T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2010/03/01/how-to-gain-more-time-part-1-</id>
+    <content type="html"><![CDATA[<p>You gain time by being efficient. The problem is, I am anything but efficient. I need to change.</p>
+
+
+<p>I love weekends. Who doesn&rsquo;t? The opportunity to sleep in late, have breakfast in bed, walking all day around in pajamas. Hey, the only &ldquo;sacrifice&rdquo; you do is you brush your teeth, wash your face and put some moisturizer on. The luxury of living alone ;). But the weekends end so quickly. Before you know it mr. Monday is here and wants you out of bed before 8 am. Bummer.</p>
+
+
+<p>The problem is, I never seem to have enough time. Time to spend on my startup. It is difficult during the week because of my 9-5 job but it is no different during weekends because i sleep until 12. What a waste of time!</p>
+
+
+<p>I figured out that if i go to the gym and do some workout immediately after work (and just one hour is enough to recharge), I come home less mentally tired and can work again. This time on MY project. But the weekends are still inefficient. The later I wake up, the less i do.</p>
+
+
+<p>I set a new rule. Every day I wake up at 7 am. No later. And no matter if it is Monday, Sunday, Saturday or Wednesday. Every day at 7 am i am OUT OF BED. And you know what? It is not so difficult to wake up early on the weekends, after all. I actually like it. I do more in those hours until 12 pm than during all the time put together afterwards.</p>
+
+
+<p>My aim is to start to wake up at 5 am. But just the thought of it scares me. Yes, I know, it is the <a href="http://sethgodin.typepad.com/seths_blog/2010/01/quieting-the-lizard-brain.html">lizard brain</a> that is complaining.&nbsp;</p>
+
+
+<p>Next on the how-to-gain-time list is to reduce distractions and procrastination.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ditching Subversion]]></title>
+    <link href="http://klaut.github.com/2010/02/24/ditching-subversion"/>
+    <updated>2010-02-24T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2010/02/24/ditching-subversion</id>
+    <content type="html"><![CDATA[<p>Version control systems are important. No argue about that. At places where i used to work (and am currently working) i had the pleasure to meet three systems: cvs, perforce and subversion. All three have one important thing in common - they all suck. Well, some suck less than others (like subversion).</p>
+
+<p>For my pet projects i decided to try these new kids on the block (read distributed version controls). I narrowed down to two: <a href="http://git-scm.com/">git</a> and <a href="http://mercurial.selenic.com/">mercurial</a>. I went for mercurial. Why? Well, first because it is written in Python and i have a thing for Python. I just love it. Second because <a href="http://bitbucket.org/">bitbucket</a> looks just nicer and cooler than <a href="https://github.com/">github</a>. And third &#8230; well, I think <a href="http://hginit.com/">this guide by Joel Spolsky</a> explains it much much better than i could do. Enjoy and be persuaded ;)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Reminder To Myself]]></title>
+    <link href="http://klaut.github.com/2010/01/28/a-reminder-to-myself"/>
+    <updated>2010-01-28T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2010/01/28/a-reminder-to-myself</id>
+    <content type="html"><![CDATA[<p>I like reading material on startups. It keeps me in a dreaming state where everything is possible and others successes are somehow mine as well.</p>
+
+
+<p>So i am spending a lot of time on mixergy.com, and i watch one interview a day on average. Which is great - lot&rsquo;s of great insight and life stories in those interviews. The problem is that i keep spending my time in a passive state: watching, reading, thinking.</p>
+
+
+<p>I read hacker news almost exclusively and i started to gather books on startups and entrepreneurs and i am set to &ldquo;make a difference&rdquo;.</p>
+
+
+<p>In between my dreaming sessions i try to do some real work for my startup - mostly the fun ones: finding a right name and domain,still deciding what features the app should have, planning how my customer service is not going to suck once my app is big, how my arrogance is not going to grow and how am i going to enjoy my financial freedom once i make it.</p>
+
+
+<p>What i really need is motivation and a kick in the butt. I get set back quite easily and is all done by myself alone. But i also get motivated easily, it just doesn&rsquo;t last long. How to change that? This is not getting me anywhere and to be honest, i haven&rsquo;t really started producing anything yet.</p>
+
+
+<p>C&rsquo;mon! it is time to start kicking!</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wherever I Go There I Am]]></title>
+    <link href="http://klaut.github.com/2009/12/10/wherever-i-go-there-i-am"/>
+    <updated>2009-12-10T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2009/12/10/wherever-i-go-there-i-am</id>
+    <content type="html"><![CDATA[<p>While pondering about what to write next i realized that perhaps a little bit of background could be helpful. Perhaps helpful for me to see my patterns of behavior and thinking.</p>
+
+
+<p>Couple of years ago when i approached my thirties i realized that maybe my life situation is not the way i was thinking it would be when i was eighteen. I also noticed that everything i dreamed about somehow disappeared or became less important. My life was automatic. I switched off Me and turned on the autopilot that was driving me from day to day. I wasn&rsquo;t excited about anything anymore. I was bored at work, i was bored with my friends and family and i did not see any way out.</p>
+
+
+<p>Somehow i thought the reason was the environment I was in. I was a victim of an environment where i could not express myself freely, was I telling myself. There were too few possibilities, there were too few opportunities, there were too few good jobs, there were too few good men, there were too few good parties &#8230; so many too fews! I was watching life passing me by and wished so much to live! Oh, but little did i know that few years ahead, in a completely different place, different country, i would still feel the same. See, no matter where i go i am always taking myself along. There I am, stuck again with my thoughts.</p>
+
+
+<p>I moved to Denmark and stayed there for a little more than 2 years. At the beginning it was exciting. Meeting new people and discovering the new culture was keeping me busy for a while. But soon same old patterns and thoughts prevailed and I was stuck again. Stuck in an everyday life that i did not like. I wished to be somewhere else again. Somewhere where people were less boring, less closed and less diffident to foreigners, somewhere &#8230;. somewhere away from myself! How can i not see it that all the time the problems are inside my head and not around me?</p>
+
+
+<p>I want to break from the circle this time. I want to take the responsibility of my life and turn it around the way i WANT it to be.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Day One - The Day It All Began]]></title>
+    <link href="http://klaut.github.com/2009/12/06/day-one-the-day-it-all-began"/>
+    <updated>2009-12-06T00:00:00+00:00</updated>
+    <id>http://klaut.github.com/2009/12/06/day-one-the-day-it-all-began</id>
+    <content type="html"><![CDATA[<p>The idea of starting something of my own, my own web based startup, and growing along the way has been burning inside me for some time now. I think it&#8217;s been something like two years that i am thinking about it but not much has actually been done yet. Up until today. Well, not that today i am going to do something extraordinary. It is just that today i decided to log the progress i am making (hopefully on a weekly, if not daily, basis) to carry this hidden desire of mine from a simple fantasy to actual execution.</p>
+
+
+<p>I have no experience in business, i have no experience in marketing, i have no experience in raising money, I have no experience &#8230; well, all i know is how to program and i am fairly good at design. But i plan to learn everything it takes to at least try and make my idea real. After, if it fails, at least i will learn something from it and my next idea is going to have more chances to succeed. Because, in all honesty, i am a little bit tired to work for others.</p>
+
+
+<p>I promised myself that i will not let myself panic and back out when things will get though (and i suspect they will get tough). Because heroes never panic. I think it is about time i start to become one :)</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Discovering Twitter]]></title>
+    <link href="http://klaut.github.com/2009/05/06/discovering-twitter"/>
+    <updated>2009-05-06T00:00:00+01:00</updated>
+    <id>http://klaut.github.com/2009/05/06/discovering-twitter</id>
+    <content type="html"><![CDATA[<p>I just finished reading a little book by Tim O&#8217;Reilly and Sarah Milstei, <a href="http://oreilly.com/catalog/9780596802813/">The Twitter Book</a>. It is aimed at Twitter newbies (such as myself) and it does a nice job explaining the power of Twitter and all its various usages for personal and business needs. It didn’t took me long to finish it as well, as it is written in the spirit of Twitter - short and to the point. It takes you from a Twitter ignorant to a pro in no time ;)</p>
+
+<p>But why would one want to know about Twitter anyway? Hmmm, tough one. To be honest, i didn’t see much value in Twitter either, when i first created an account. I actually didn’t use it much at all - I wasn’t sure why i needed yet another communication channel to tell the world about what I’m doing, thinking, eating. I have a blog, like everyone else, right? And I’m not posting much on it. I have an account on Facebook like everyone else, right? But i am not using it much apart from playing Texas Hold’em occasionally. So what is different with Twitter that would make me tweet regularly each week, or day, or even more times per day? And who would care about it anyway?</p>
+
+<p>First, the tweets are short messages that must obey the 140 character limit. So you don’t have to engage more than a minute (unlike when you are posting on a blog) to get your thought across. And when you start following smart and witty people, it is actually very amusing reading their tweets. It is like peeking into their minds. And that gives you motivation to tweet back. And in a matter of no time it becomes great fun!</p>
+
+<p>I admit, i am a Twitter newbie but i am starting to be really hooked. And not just thanks to the book ;)</p>
+]]></content>
+  </entry>
+  
+</feed>
