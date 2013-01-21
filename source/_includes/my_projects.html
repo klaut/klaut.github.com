@@ -3,17 +3,15 @@
   {% for project in projects %}
     <li>
       <h3>{% if project.link %}<a href="{{ project.link }}">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
+      <ul class="metadata">
+        <li class="project-stack"> stack: {{ project.stack | join:', ' }}</li> 
+        <li>{{ project.categories | join:', ' }}</li>
+      </ul>
       {{ project.content }}
       {% if project.screenshot %}
       <div class="screenshot">
-        <img src="{{ project.screenshot }}" >
+        <a href="{{ project.link }}"><img src="{{ project.screenshot }}" ></a>
       </div>
-      {% endif %}
-      {% if project.github or project.categories %}
-      <ul class="metadata">
-        {% if project.github %}<li><a href="{{ project.github }}">GitHub</a></li>{% endif %}
-        <li>{{ project.categories | join:', ' }}</li>
-      </ul>
       {% endif %}
     </li>
   {% endfor %}

@@ -131,7 +131,7 @@ task :new_project, :title do |t, args|
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "comments: false"
     post.puts "categories: "
-    post.puts "github: "
+    post.puts "stack: "
     post.puts "link: "
     post.puts "screenshot: "
     post.puts "---"
