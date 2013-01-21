@@ -8,4 +8,4 @@ stack: Rails, Mongodb, Redis, Coffeescript, Backbone.js, Sendgird
 link: http://dopo.io
 screenshot: /images/projects/dopo-io-dashboard.png
 ---
-This is a test.
+Scheduling tweets by email
