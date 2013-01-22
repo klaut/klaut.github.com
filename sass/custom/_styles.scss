@@ -153,6 +153,7 @@ article {
   h1 {
     font-size: 1.8em;
   }
+   h2 { margin-bottom: 15px;}
 
   header { margin-bottom: 50px; }
 }
@@ -260,4 +261,55 @@ ul.projects {
     }
     .screenshot img { width: 650px; }
   }
+}
+
+
+// Blockquotes
+blockquote {
+  padding: 0 0 0 15px;
+  margin: 20px;
+  border-left: 5px solid #eee;
+  font-size: 14px;
+  p {
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 20px;
+  }
+  small {
+    display: block;
+    line-height: 20px;
+    color: $gray;
+    &:before {
+      content: '\2014 \00A0';
+    }
+  }
+
+  // Float right with text-align: right
+  &.pull-right {
+    float: right;
+    padding-right: 15px;
+    padding-left: 0;
+    border-right: 5px solid #eee;
+    border-left: 0;
+    p,
+    small {
+      text-align: right;
+    }
+    small {
+      &:before {
+        content: '';
+      }
+      &:after {
+        content: '\00A0 \2014';
+      }
+    }
+  }
+}
+
+// Quotes
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
 }
